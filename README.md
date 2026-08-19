@@ -22,10 +22,10 @@ REST API which serve the to predict the the species type of the iris flower usin
  -petalwidht
  --species
 
-# Installation
-#  CMD
------
+## setup
 
+```bash
 git clone "https://github.com/akilan08052-ship-it/ML-Model-Deployment-as-a-Monitored-REST-API.git"
 
-------
+````
+
