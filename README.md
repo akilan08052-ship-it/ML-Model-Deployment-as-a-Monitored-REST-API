@@ -11,21 +11,45 @@ REST API which serve the to predict the the species type of the iris flower usin
  - Scikit-learn
  - Swagger
  - Prometheus
+
 -----
 
-##  DATASET
-### columns
- - id
- - sepalenght
- - sepalwidht
- - petalenght
- - petalwidht
- - species
+## project structure
 
-## setup
+```text
+ML-Model-Deployment-as-a-Mointered-REST Api
+|
+|_app
+|
+|_models
+|
+|_routes
+|
+|_ml
+| |-saved_model
+| |_iris.csv
+| |_train.py
+|
+|
+|
+|_test
+|
+|
+|
+|_.gitignore
+|
+|_README.md
+|_requirements.txt
+```
+
+---
+
+## 
 
 ```bash
 git clone "https://github.com/akilan08052-ship-it/ML-Model-Deployment-as-a-Monitored-REST-API.git"
 
 ````
+
+
 
