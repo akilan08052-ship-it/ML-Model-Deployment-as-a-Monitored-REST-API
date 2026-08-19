@@ -5,7 +5,7 @@ REST API which serve the to predict the the species type of the iris flower usin
 ## Tech Stack
  -Python
  -FastAPI
- -Unicorn
+ -Uvicorn
  -Pydantic
  -Pandas
  -Scikit-learn
