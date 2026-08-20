@@ -5,13 +5,13 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import joblib
+import pickle
 import os
 
+
 df=pd.read_csv("ml/Iris.csv")
-df["SepalLengthCm"].fillna(df["SepalLengthCm"]).mean()
-df["SepalWidthCm"].fillna(df["SepalWidthCm"]).mean()
-df["PetalLengthCm"].fillna(df["PetalLengthCm"]).mean()
-df["PetalWidthCm"].fillna(df["PetalWidthCm"]).mean()
+
+
 
 
 #Test $$ Traget
@@ -33,16 +33,19 @@ x_test=scaler.transform(X_test)
 model=LogisticRegression()
 model.fit(x_train,y_train)
 
-sample =[[6.2, 2.8, 4.8, 1.8]]
-y_pred=model.predict(scaler.transform(sample))
-#print(y_pred)
 
-#accuracy score
-joblib.dump(model,"ml/saved_model/iris.pkl")
 
-mj=joblib.load("ml/saved_model/iris.pkl")
-p=mj.predict(sample)
-print(p)
+with open("ml/saved_model/model.pkl","w+b")as f:
+    pickle.dump(model,f)
+with open("ml/saved_model/scaler.pkl","w+b")as f:
+    pickle.dump(scaler,f)
+
+
+
+
+
+
+
 
 
 
