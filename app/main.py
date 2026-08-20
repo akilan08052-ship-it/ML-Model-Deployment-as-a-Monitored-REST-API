@@ -17,11 +17,10 @@ class TestData(BaseModel):
     petallength:float
     petalwidth:float
 
-with open("ml/saved_model/scaler.pkl", "rb") as f:
-            scaler = pickle.load(f)
+model=joblib.load("ml/saved_model/model.pkl")
+scaler=joblib.load("ml/saved_model/scaler.pkl")
+accuracy=joblib.load("ml/saved_model/accuracy.pkl")
 
-with open("ml/saved_model/model.pkl", "rb") as f:
-            model = pickle.load(f)
 
 
 
@@ -49,4 +48,5 @@ def predict(data: TestData):
     transformed_data=scaler.transform(input_data)
     result=model.predict(transformed_data)
 
-    return {"reslut":result[0]}
+    return {"reslut":result[0],
+            "accuracy":accuracy}

@@ -33,12 +33,14 @@ x_test=scaler.transform(X_test)
 model=LogisticRegression()
 model.fit(x_train,y_train)
 
+#accuracy
+y_pred=model.predict(x_test)
 
+accuracy=accuracy_score(y_test,y_pred)
+joblib.dump(accuracy,"ml/saved_model/accuracy.pkl")
 
-with open("ml/saved_model/model.pkl","w+b")as f:
-    pickle.dump(model,f)
-with open("ml/saved_model/scaler.pkl","w+b")as f:
-    pickle.dump(scaler,f)
+joblib.dump(model,"ml/saved_model/model.pkl")
+joblib.dump(scaler,"ml/saved_model/scaler.pkl")
 
 
 
