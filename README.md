@@ -27,6 +27,9 @@ ML-Model-Deployment-as-a-Mointered-REST Api
 |
 |_ml
 | |-saved_model
+| |   |_model.pkl
+| |   |_accuracy.pkl
+| |   |_scaler.pkl
 | |_iris.csv
 | |_train.py
 |
@@ -44,12 +47,26 @@ ML-Model-Deployment-as-a-Mointered-REST Api
 
 ---
 
-## 
+## Used this project 
 
 ```bash
 git clone "https://github.com/akilan08052-ship-it/ML-Model-Deployment-as-a-Monitored-REST-API.git"
 
-````
+```
+### Setup Enviroment
+```bash
+pip install -r requirement.txt
+
+```
+### Run the project
+
+```bash
+uvicron app.main:app --reload
+
+```
+
+
+
 
 
 
