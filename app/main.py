@@ -5,9 +5,6 @@ import joblib
 
 
 
-
-
-
 class TestData(BaseModel):
     sepallength:float
     sepalwidth:float
@@ -22,7 +19,8 @@ app=FastAPI()
 
 @app.get("/")
 def root():
-    return {"message":"ML API is alive"}
+
+    return JSONResponse(content=str({"message":"ML API is live"}),status_code=200)
 
 @app.post("/predict")
 def predict(data: TestData):
