@@ -1,6 +1,6 @@
 # ML-Model-Deployment-as-a-Monitored-REST-API
 
-  REST API which serve the to predict the the species type of the iris flower using the lenght and width of sepal,petal of the flower.This Rest API is monitored from request to response for recod the purpose of the breakage during the server is running.
+  REST API which serve the to predict the the species type of the iris flower using the length and width of sepal,petal of the flower.This Rest API is monitored from request to response for record the purpose of the breakage during the server is running.
 -----
 ## Tech Stack
  - Python
@@ -43,7 +43,8 @@ ML-Model-Deployment-as-a-Mointered-REST Api
 |
 |_README.md
 |_requirements.txt
-```
+
+```text
 
 ---
 
@@ -64,6 +65,14 @@ pip install -r requirement.txt
 uvicron app.main:app --reload
 
 ```
+## Endpoints
+
+```text
+http://127.0.0.1:8000/
+http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/predict
+
+```text
 
 
 

@@ -1,11 +1,8 @@
-from fastapi import FastAPI,HTTPException
+from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
-from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import LogisticRegression
 import joblib
-import pickle
-import os
+
 
 
 
@@ -17,18 +14,9 @@ class TestData(BaseModel):
     petallength:float
     petalwidth:float
 
-model=joblib.load("ml/saved_model/model.pkl")
-scaler=joblib.load("ml/saved_model/scaler.pkl")
+
 accuracy=joblib.load("ml/saved_model/accuracy.pkl")
-
-
-
-
-
-
-
-
-
+pipeline=joblib.load("ml/saved_model/iris_pipeline.pkl")
 
 app=FastAPI()
 
@@ -38,15 +26,14 @@ def root():
 
 @app.post("/predict")
 def predict(data: TestData):
-    
     input_data = [[
                 data.sepallength,
                 data.sepalwidth,
                 data.petallength,
                 data.petalwidth
                 ]]
-    transformed_data=scaler.transform(input_data)
-    result=model.predict(transformed_data)
-
-    return {"reslut":result[0],
+    Y_pred=pipeline.predict(input_data)
+    
+    result={"result":Y_pred[0],
             "accuracy":accuracy}
+    return JSONResponse(content=str(result),status_code=200)

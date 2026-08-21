@@ -1,12 +1,11 @@
 import pandas as pd
-import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
+from sklearn.pipeline import Pipeline
 import joblib
-import pickle
-import os
+
 
 
 df=pd.read_csv("ml/Iris.csv")
@@ -14,33 +13,28 @@ df=pd.read_csv("ml/Iris.csv")
 
 
 
-#Test $$ Traget
-
 x=df[["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"]]
 y=df["Species"]
 
 
-#test and train model
+
 X_train,X_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=42)
 
 
-#standardizing the model
-scaler=StandardScaler()
-x_train=scaler.fit_transform(X_train)
-x_test=scaler.transform(X_test)
+pipline=Pipeline([
+    ("scaler",StandardScaler()),
+    ("model",LogisticRegression()),
+    
+])
 
-#model 
-model=LogisticRegression()
-model.fit(x_train,y_train)
 
-#accuracy
-y_pred=model.predict(x_test)
+pipline.fit(X_train,y_train)
+y_pred=pipline.predict(X_test)
 
 accuracy=accuracy_score(y_test,y_pred)
-joblib.dump(accuracy,"ml/saved_model/accuracy.pkl")
+print(accuracy)
+joblib.dump(pipline,"ml/saved_model/iris_pipeline.pkl")
 
-joblib.dump(model,"ml/saved_model/model.pkl")
-joblib.dump(scaler,"ml/saved_model/scaler.pkl")
 
 
 
