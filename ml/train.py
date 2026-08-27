@@ -10,16 +10,10 @@ import joblib
 
 df=pd.read_csv("ml/Iris.csv")
 
-
-
-
 x=df[["SepalLengthCm","SepalWidthCm","PetalLengthCm","PetalWidthCm"]]
 y=df["Species"]
 
-
-
 X_train,X_test,y_train,y_test=train_test_split(x,y,test_size=0.2,random_state=42)
-
 
 pipline=Pipeline([
     ("scaler",StandardScaler()),
@@ -27,12 +21,9 @@ pipline=Pipeline([
     
 ])
 
-
 pipline.fit(X_train,y_train)
 y_pred=pipline.predict(X_test)
 
-accuracy=accuracy_score(y_test,y_pred)
-print(accuracy)
 joblib.dump(pipline,"ml/saved_model/iris_pipeline.pkl")
 
 

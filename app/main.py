@@ -1,37 +1,47 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel
+from models.schemas import TestData
 import joblib
+import gc
 
 
 
-class TestData(BaseModel):
-    sepallength:float
-    sepalwidth:float
-    petallength:float
-    petalwidth:float
+
+ml_model={}
+async def lifespan(app:FastAPI):
+    model=joblib.load("ml/saved_model/iris_pipeline.pkl")
+    print(model)
+    ml_model["model"]=model
+    print("----model loaded----")
+    yield
+    print("model released")
+    
+    del model
+    gc.collect()
 
 
-accuracy=joblib.load("ml/saved_model/accuracy.pkl")
-pipeline=joblib.load("ml/saved_model/iris_pipeline.pkl")
+def convert(data):
+    dict_data=f=dict(data)
+    return list(dict_data.values())
 
-app=FastAPI()
+
+
+app=FastAPI(lifespan=lifespan)
+
 
 @app.get("/")
 def root():
 
     return JSONResponse(content=str({"message":"ML API is live"}),status_code=200)
 
+
+
 @app.post("/predict")
-def predict(data: TestData):
-    input_data = [[
-                data.sepallength,
-                data.sepalwidth,
-                data.petallength,
-                data.petalwidth
-                ]]
-    Y_pred=pipeline.predict(input_data)
+def predict(data:TestData):
+    con=convert(data)
+    result=ml_model["model"].predict([con])
+    return JSONResponse(content={"result":str(result[0])},status_code=200)
     
-    result={"result":Y_pred[0],
-            "accuracy":accuracy}
-    return JSONResponse(content=str(result),status_code=200)
+        
+    
+   
