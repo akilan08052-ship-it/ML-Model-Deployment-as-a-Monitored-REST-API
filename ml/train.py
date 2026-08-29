@@ -23,9 +23,11 @@ pipline=Pipeline([
 
 pipline.fit(X_train,y_train)
 y_pred=pipline.predict(X_test)
+accuracy=accuracy_score(y_pred,y_test)
+
 
 joblib.dump(pipline,"ml/saved_model/iris_pipeline.pkl")
-
+joblib.dump(accuracy,"ml/saved_model/accuracy.pkl")
 
 
 

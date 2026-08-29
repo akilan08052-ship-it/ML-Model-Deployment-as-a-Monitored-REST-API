@@ -20,6 +20,9 @@
 ML-Model-Deployment-as-a-Mointered-REST Api
 |
 |_app
+| |__logs
+|   |_app.log
+|
 |
 |_models
 |
@@ -71,8 +74,12 @@ uvicron app.main:app --reload
 http://127.0.0.1:8000/
 http://127.0.0.1:8000/docs
 http://127.0.0.1:8000/predict
+http://127.0.0.1:8000/health
 
 ```text
+
+
+
 
 
 

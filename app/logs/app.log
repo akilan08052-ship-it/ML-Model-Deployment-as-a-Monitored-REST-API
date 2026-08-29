@@ -1,0 +1,399 @@
+2026-08-28 18:03:14,350 |INFO | Ml_api | Request Recived |request_id=ba651722-1a1f-4cc4-934c-87590b6b62ca |method=POST |path=/predict 
+2026-08-28 18:03:14,357 |INFO | Ml_api | Response Sent |request_id=ba651722-1a1f-4cc4-934c-87590b6b62ca |request_method=POST |path=/predict |response_time=0.006962900049984455 
+2026-08-28 18:03:19,303 |INFO | Ml_api | Request Recived |request_id=250dfa0b-f594-4d2d-90dd-89b5673c0692 |method=POST |path=/predict 
+2026-08-28 18:03:19,314 |INFO | Ml_api | Response Sent |request_id=250dfa0b-f594-4d2d-90dd-89b5673c0692 |request_method=POST |path=/predict |response_time=0.011670099920593202 
+2026-08-28 18:03:20,672 |INFO | Ml_api | Request Recived |request_id=ce432039-41a4-4779-8d9b-66e8ac1463d1 |method=POST |path=/predict 
+2026-08-28 18:03:20,680 |INFO | Ml_api | Response Sent |request_id=ce432039-41a4-4779-8d9b-66e8ac1463d1 |request_method=POST |path=/predict |response_time=0.007732299971394241 
+2026-08-28 18:03:22,082 |INFO | Ml_api | Request Recived |request_id=6c7b08a0-c89c-4d41-88f2-155d5f04622f |method=POST |path=/predict 
+2026-08-28 18:03:22,090 |INFO | Ml_api | Response Sent |request_id=6c7b08a0-c89c-4d41-88f2-155d5f04622f |request_method=POST |path=/predict |response_time=0.00901709997560829 
+2026-08-28 18:03:23,517 |INFO | Ml_api | Request Recived |request_id=132791aa-9ff7-4386-aec9-7790fd3e9974 |method=POST |path=/predict 
+2026-08-28 18:03:23,530 |INFO | Ml_api | Response Sent |request_id=132791aa-9ff7-4386-aec9-7790fd3e9974 |request_method=POST |path=/predict |response_time=0.013241400010883808 
+2026-08-28 18:03:24,937 |INFO | Ml_api | Request Recived |request_id=0eb96bd1-065a-4f8a-b1df-4043c24dd912 |method=POST |path=/predict 
+2026-08-28 18:03:24,947 |INFO | Ml_api | Response Sent |request_id=0eb96bd1-065a-4f8a-b1df-4043c24dd912 |request_method=POST |path=/predict |response_time=0.009619399905204773 
+2026-08-28 18:03:26,414 |INFO | Ml_api | Request Recived |request_id=d27ec479-1072-4e9a-b4fe-3580dfc47960 |method=POST |path=/predict 
+2026-08-28 18:03:26,422 |INFO | Ml_api | Response Sent |request_id=d27ec479-1072-4e9a-b4fe-3580dfc47960 |request_method=POST |path=/predict |response_time=0.00819940003566444 
+2026-08-28 18:03:27,686 |INFO | Ml_api | Request Recived |request_id=c6ee7caf-2fd1-4df2-9368-228c2de4e757 |method=POST |path=/predict 
+2026-08-28 18:03:27,694 |INFO | Ml_api | Response Sent |request_id=c6ee7caf-2fd1-4df2-9368-228c2de4e757 |request_method=POST |path=/predict |response_time=0.008387699956074357 
+2026-08-28 18:03:28,940 |INFO | Ml_api | Request Recived |request_id=8b1a5579-33cb-41ae-9684-fed354831ac9 |method=POST |path=/predict 
+2026-08-28 18:03:28,946 |INFO | Ml_api | Response Sent |request_id=8b1a5579-33cb-41ae-9684-fed354831ac9 |request_method=POST |path=/predict |response_time=0.005468799965456128 
+2026-08-28 18:03:30,154 |INFO | Ml_api | Request Recived |request_id=ebd9def2-6d85-4d6e-afc1-bbd9cf4b4483 |method=POST |path=/predict 
+2026-08-28 18:03:30,175 |INFO | Ml_api | Response Sent |request_id=ebd9def2-6d85-4d6e-afc1-bbd9cf4b4483 |request_method=POST |path=/predict |response_time=0.022932799998670816 
+2026-08-28 18:03:31,366 |INFO | Ml_api | Request Recived |request_id=2d03306d-9cdc-4d50-9d6e-d461eb3d9973 |method=POST |path=/predict 
+2026-08-28 18:03:31,374 |INFO | Ml_api | Response Sent |request_id=2d03306d-9cdc-4d50-9d6e-d461eb3d9973 |request_method=POST |path=/predict |response_time=0.007775800069794059 
+2026-08-28 18:03:32,697 |INFO | Ml_api | Request Recived |request_id=ba5b38f5-cb1f-42c0-8528-e4dcfb357700 |method=POST |path=/predict 
+2026-08-28 18:03:32,702 |INFO | Ml_api | Response Sent |request_id=ba5b38f5-cb1f-42c0-8528-e4dcfb357700 |request_method=POST |path=/predict |response_time=0.00506999995559454 
+2026-08-28 18:03:34,031 |INFO | Ml_api | Request Recived |request_id=b526db49-7436-437f-939e-020bcd03ada0 |method=POST |path=/predict 
+2026-08-28 18:03:34,039 |INFO | Ml_api | Response Sent |request_id=b526db49-7436-437f-939e-020bcd03ada0 |request_method=POST |path=/predict |response_time=0.007134300074540079 
+2026-08-28 18:03:35,451 |INFO | Ml_api | Request Recived |request_id=3aade8ec-e27b-4588-bd95-fe54c937db48 |method=POST |path=/predict 
+2026-08-28 18:03:35,458 |INFO | Ml_api | Response Sent |request_id=3aade8ec-e27b-4588-bd95-fe54c937db48 |request_method=POST |path=/predict |response_time=0.006649600109085441 
+2026-08-28 18:03:36,595 |INFO | Ml_api | Request Recived |request_id=6ead138e-3bb8-4487-ae78-43231e332dc6 |method=POST |path=/predict 
+2026-08-28 18:03:36,600 |INFO | Ml_api | Response Sent |request_id=6ead138e-3bb8-4487-ae78-43231e332dc6 |request_method=POST |path=/predict |response_time=0.00461820000782609 
+2026-08-28 18:03:37,546 |INFO | Ml_api | Request Recived |request_id=d8829c89-461f-43d1-a931-7ea9c75b27f2 |method=POST |path=/predict 
+2026-08-28 18:03:37,551 |INFO | Ml_api | Response Sent |request_id=d8829c89-461f-43d1-a931-7ea9c75b27f2 |request_method=POST |path=/predict |response_time=0.0050993000622838736 
+2026-08-28 18:03:39,016 |INFO | Ml_api | Request Recived |request_id=5405c27c-43eb-48cc-bbd4-53f2e80d0df2 |method=POST |path=/predict 
+2026-08-28 18:03:39,023 |INFO | Ml_api | Response Sent |request_id=5405c27c-43eb-48cc-bbd4-53f2e80d0df2 |request_method=POST |path=/predict |response_time=0.007166599971242249 
+2026-08-28 18:03:40,336 |INFO | Ml_api | Request Recived |request_id=068a640e-b8e8-41a5-943f-6b330a765799 |method=POST |path=/predict 
+2026-08-28 18:03:40,348 |INFO | Ml_api | Response Sent |request_id=068a640e-b8e8-41a5-943f-6b330a765799 |request_method=POST |path=/predict |response_time=0.011723499977961183 
+2026-08-28 18:03:41,901 |INFO | Ml_api | Request Recived |request_id=05ca1358-4c6f-4c02-a036-09864a0dfba8 |method=POST |path=/predict 
+2026-08-28 18:03:41,916 |INFO | Ml_api | Response Sent |request_id=05ca1358-4c6f-4c02-a036-09864a0dfba8 |request_method=POST |path=/predict |response_time=0.01511410006787628 
+2026-08-28 18:03:43,067 |INFO | Ml_api | Request Recived |request_id=bb7a667c-cf18-4f26-92f0-9202abcd2943 |method=POST |path=/predict 
+2026-08-28 18:03:43,075 |INFO | Ml_api | Response Sent |request_id=bb7a667c-cf18-4f26-92f0-9202abcd2943 |request_method=POST |path=/predict |response_time=0.008068800088949502 
+2026-08-28 18:03:44,367 |INFO | Ml_api | Request Recived |request_id=e629c64b-b559-4a51-9608-791c0d6c9c42 |method=POST |path=/predict 
+2026-08-28 18:03:44,376 |INFO | Ml_api | Response Sent |request_id=e629c64b-b559-4a51-9608-791c0d6c9c42 |request_method=POST |path=/predict |response_time=0.008538200054317713 
+2026-08-28 18:03:45,565 |INFO | Ml_api | Request Recived |request_id=bb52e573-c57b-45ac-8a92-7dd9ce9fa594 |method=POST |path=/predict 
+2026-08-28 18:03:45,576 |INFO | Ml_api | Response Sent |request_id=bb52e573-c57b-45ac-8a92-7dd9ce9fa594 |request_method=POST |path=/predict |response_time=0.010907300049439073 
+2026-08-28 18:03:46,701 |INFO | Ml_api | Request Recived |request_id=7c018704-701d-4333-b410-3ea8b57f68a3 |method=POST |path=/predict 
+2026-08-28 18:03:46,709 |INFO | Ml_api | Response Sent |request_id=7c018704-701d-4333-b410-3ea8b57f68a3 |request_method=POST |path=/predict |response_time=0.007891400018706918 
+2026-08-28 18:03:47,857 |INFO | Ml_api | Request Recived |request_id=128b17e8-b5b8-47a1-82dd-3432f29e908a |method=POST |path=/predict 
+2026-08-28 18:03:47,868 |INFO | Ml_api | Response Sent |request_id=128b17e8-b5b8-47a1-82dd-3432f29e908a |request_method=POST |path=/predict |response_time=0.01106599997729063 
+2026-08-28 18:03:49,021 |INFO | Ml_api | Request Recived |request_id=45d4851f-9b0e-4e9d-87b3-2dd26dee4be5 |method=POST |path=/predict 
+2026-08-28 18:03:49,030 |INFO | Ml_api | Response Sent |request_id=45d4851f-9b0e-4e9d-87b3-2dd26dee4be5 |request_method=POST |path=/predict |response_time=0.008778300019912422 
+2026-08-28 18:03:50,116 |INFO | Ml_api | Request Recived |request_id=40afccfc-bb84-4b02-984c-62b5b7dbf720 |method=POST |path=/predict 
+2026-08-28 18:03:50,123 |INFO | Ml_api | Response Sent |request_id=40afccfc-bb84-4b02-984c-62b5b7dbf720 |request_method=POST |path=/predict |response_time=0.00745379994623363 
+2026-08-28 18:03:52,522 |INFO | Ml_api | Request Recived |request_id=b81f9dae-a2c5-4b27-a5b9-3159152c3dd4 |method=POST |path=/predict 
+2026-08-28 18:03:52,533 |INFO | Ml_api | Response Sent |request_id=b81f9dae-a2c5-4b27-a5b9-3159152c3dd4 |request_method=POST |path=/predict |response_time=0.010055399965494871 
+2026-08-28 18:03:53,794 |INFO | Ml_api | Request Recived |request_id=56e7f432-f1db-4fc9-969f-41990e14ffa5 |method=POST |path=/predict 
+2026-08-28 18:03:53,800 |INFO | Ml_api | Response Sent |request_id=56e7f432-f1db-4fc9-969f-41990e14ffa5 |request_method=POST |path=/predict |response_time=0.006166399922221899 
+2026-08-28 18:03:55,014 |INFO | Ml_api | Request Recived |request_id=fcc6270e-b9dd-4ec8-a485-7db3715f1b03 |method=POST |path=/predict 
+2026-08-28 18:03:55,024 |INFO | Ml_api | Response Sent |request_id=fcc6270e-b9dd-4ec8-a485-7db3715f1b03 |request_method=POST |path=/predict |response_time=0.010243199998512864 
+2026-08-28 18:03:56,067 |INFO | Ml_api | Request Recived |request_id=c0be3f4e-cb9a-4dd0-803c-dee0cef2e3dd |method=POST |path=/predict 
+2026-08-28 18:03:56,077 |INFO | Ml_api | Response Sent |request_id=c0be3f4e-cb9a-4dd0-803c-dee0cef2e3dd |request_method=POST |path=/predict |response_time=0.009632600005716085 
+2026-08-28 18:03:57,019 |INFO | Ml_api | Request Recived |request_id=ec7129c1-b44a-4307-85a9-485cdecab70e |method=POST |path=/predict 
+2026-08-28 18:03:57,030 |INFO | Ml_api | Response Sent |request_id=ec7129c1-b44a-4307-85a9-485cdecab70e |request_method=POST |path=/predict |response_time=0.011215300066396594 
+2026-08-28 18:03:57,813 |INFO | Ml_api | Request Recived |request_id=59997a5c-e3d7-4ec7-9844-18d15bb1334c |method=POST |path=/predict 
+2026-08-28 18:03:57,818 |INFO | Ml_api | Response Sent |request_id=59997a5c-e3d7-4ec7-9844-18d15bb1334c |request_method=POST |path=/predict |response_time=0.004951299983076751 
+2026-08-28 18:04:00,169 |INFO | Ml_api | Request Recived |request_id=dae579d5-3b69-431e-9ad3-844f8d6f1b99 |method=POST |path=/predict 
+2026-08-28 18:04:00,175 |INFO | Ml_api | Response Sent |request_id=dae579d5-3b69-431e-9ad3-844f8d6f1b99 |request_method=POST |path=/predict |response_time=0.006224999902769923 
+2026-08-28 18:04:01,434 |INFO | Ml_api | Request Recived |request_id=fc395052-1abb-4870-8a8e-eec36804d6e3 |method=POST |path=/predict 
+2026-08-28 18:04:01,444 |INFO | Ml_api | Response Sent |request_id=fc395052-1abb-4870-8a8e-eec36804d6e3 |request_method=POST |path=/predict |response_time=0.009825200075283647 
+2026-08-28 18:04:02,589 |INFO | Ml_api | Request Recived |request_id=006c2803-9cee-42b5-83b4-f2780a3c1666 |method=POST |path=/predict 
+2026-08-28 18:04:02,597 |INFO | Ml_api | Response Sent |request_id=006c2803-9cee-42b5-83b4-f2780a3c1666 |request_method=POST |path=/predict |response_time=0.007704500108957291 
+2026-08-28 18:04:06,571 |INFO | Ml_api | Request Recived |request_id=9627b117-8ce4-4858-8a6a-f50bea2e51b1 |method=POST |path=/predict 
+2026-08-28 18:04:06,578 |INFO | Ml_api | Response Sent |request_id=9627b117-8ce4-4858-8a6a-f50bea2e51b1 |request_method=POST |path=/predict |response_time=0.00715920003131032 
+2026-08-28 18:04:39,968 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:04:42,578 |INFO | Ml_api | Model pkl is loaded Successfully
+2026-08-28 18:04:49,659 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:04:53,225 |INFO | Ml_api | Model pkl is loaded Successfully
+2026-08-28 18:04:53,226 |INFO | Ml_api | Model pkl is loaded Successfully
+2026-08-28 18:04:56,383 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:04:58,973 |INFO | Ml_api | Model pkl is loaded Successfully
+2026-08-28 18:04:58,974 |INFO | Ml_api | accuracy pkl is loaded Successfully
+2026-08-28 18:05:06,477 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:05:10,103 |INFO | Ml_api | Model pkl is loaded Successfully
+2026-08-28 18:05:10,104 |INFO | Ml_api | accuracy pkl is loaded Successfully
+2026-08-28 18:05:14,735 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:05:18,869 |INFO | Ml_api | Model pkl is loaded Successfully
+2026-08-28 18:05:18,871 |INFO | Ml_api | accuracy.[klpkl is loaded Successfully
+2026-08-28 18:05:22,898 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:05:25,379 |INFO | Ml_api | Model pkl is loaded Successfully
+2026-08-28 18:05:25,380 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:05:29,169 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:05:31,881 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:05:31,883 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:06:01,715 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:06:06,475 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:06:06,476 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:06:13,406 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:06:15,937 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:06:15,937 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:06:19,646 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:06:22,460 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:06:22,461 |WARNING | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:06:26,577 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:06:29,709 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:06:29,711 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:06:33,341 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:06:35,853 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:06:35,854 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:06:38,427 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:06:44,782 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:06:44,782 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:06:48,722 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:06:51,699 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:06:51,701 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:07:09,367 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:07:12,157 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:07:12,158 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:07:18,051 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:07:20,757 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:07:20,757 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:07:25,493 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:07:28,988 |INFO | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:07:28,989 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:08:24,742 |INFO | Ml_api | Request Recived |request_id=a46368fe-3f5d-446e-981a-3e9f1a881083 |method=POST |path=/predict 
+2026-08-28 18:08:25,308 |INFO | Ml_api | Response Sent |request_id=a46368fe-3f5d-446e-981a-3e9f1a881083 |request_method=POST |path=/predict |response_time=0.5666974000632763 
+2026-08-28 18:09:18,972 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:09:18,972 |WARNING | Ml_api | Model.pkl is loaded Successfully
+2026-08-28 18:09:18,973 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:10:36,479 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:10:36,495 |WARNING | Ml_api | Model.pkl is no
+2026-08-28 18:10:36,495 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:10:39,481 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:10:39,481 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:10:39,483 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:10:49,462 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:10:49,463 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:10:49,463 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:10:55,186 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:10:55,186 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:10:55,186 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:12:35,756 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:12:35,756 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:12:35,756 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:13:12,244 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:13:12,244 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:13:12,244 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:14:04,304 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:14:04,304 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:14:04,304 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:14:19,359 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:14:19,359 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:14:19,359 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:14:22,035 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:14:22,035 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:14:22,037 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:15:15,554 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:15:15,554 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:15:15,554 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:15:18,525 |INFO | Ml_api | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:15:18,525 |WARNING | Ml_api | Model.pkl is not loaded
+2026-08-28 18:15:18,526 |INFO | Ml_api | accuracy.pkl is loaded Successfully
+2026-08-28 18:15:50,790 |INFO | mai | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:15:50,790 |WARNING | mai | Model.pkl is not loaded
+2026-08-28 18:15:50,790 |INFO | mai | accuracy.pkl is loaded Successfully
+2026-08-28 18:15:53,219 |INFO | main | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:15:53,222 |WARNING | main | Model.pkl is not loaded
+2026-08-28 18:15:53,222 |INFO | main | accuracy.pkl is loaded Successfully
+2026-08-28 18:15:59,136 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 18:15:59,136 |WARNING | app | Model.pkl is not loaded
+2026-08-28 18:15:59,136 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:16:27,096 |INFO | app | Request Recived |request_id=d73e70b8-6449-401e-862e-14d0846b9650 |method=POST |path=/predict 
+2026-08-28 19:17:03,472 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:17:03,472 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:17:03,472 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:17:08,268 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:17:08,273 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:17:08,277 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:17:12,127 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:17:12,129 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:17:12,132 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:17:13,933 |INFO | app | Request Recived |request_id=6201532d-7935-4b1e-b9d5-f2347782a08a |method=POST |path=/predict 
+2026-08-28 19:17:13,942 |ERROR | app | 'model'
+2026-08-28 19:17:13,944 |INFO | app | Response Sent |request_id=6201532d-7935-4b1e-b9d5-f2347782a08a |request_method=POST |path=/predict |response_time=0.01035510003566742 
+2026-08-28 19:17:32,046 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:17:32,056 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:17:32,099 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:17:44,089 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:17:44,093 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:17:44,098 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:17:49,624 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:17:49,626 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:17:49,630 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:17:56,723 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:17:56,723 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:17:56,723 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:18:13,584 |INFO | app | Request Recived |request_id=d0753ecc-a72a-4580-ac79-5536a188bff9 |method=POST |path=/predict 
+2026-08-28 19:22:25,667 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:22:25,669 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:22:25,669 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:23:19,759 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:23:19,759 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:26:29,596 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:26:29,597 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:26:29,598 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:26:47,772 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:26:47,772 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:26:47,788 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:26:54,755 |INFO | app | Request Recived |request_id=6a57637c-92d5-4279-bc94-6c4609eed6b1 |method=POST |path=/predict 
+2026-08-28 19:28:36,968 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:28:36,969 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:28:36,970 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:28:40,440 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:28:40,440 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:28:40,440 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:28:51,666 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:28:51,667 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:28:51,668 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:28:54,169 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:28:54,169 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:28:54,169 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:28:59,839 |INFO | app | Request Recived |request_id=43c31af2-87f4-4d59-990f-f7171c2ca3a7 |method=POST |path=/predict 
+2026-08-28 19:28:59,846 |ERROR | app | model not loaded
+2026-08-28 19:28:59,847 |INFO | app | Response Sent |request_id=43c31af2-87f4-4d59-990f-f7171c2ca3a7 |request_method=POST |path=/predict |response_time=0.008001099922694266 
+2026-08-28 19:30:19,190 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:30:19,190 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:30:19,190 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:30:27,163 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:30:27,163 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:30:27,163 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:30:37,545 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:30:37,545 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:30:37,546 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:30:46,144 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:30:46,144 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:30:46,151 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:30:48,771 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:30:48,771 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:30:48,771 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:30:53,764 |INFO | app | Request Recived |request_id=6b199e23-184b-4f48-b8d7-af66b7713cc5 |method=POST |path=/predict 
+2026-08-28 19:30:53,771 |ERROR | app | detail:'model'
+2026-08-28 19:30:53,774 |INFO | app | Response Sent |request_id=6b199e23-184b-4f48-b8d7-af66b7713cc5 |request_method=POST |path=/predict |response_time=0.01070889993570745 
+2026-08-28 19:31:35,789 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:31:35,789 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:31:35,789 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:59:27,384 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:59:27,401 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:59:27,403 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:59:32,489 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:59:32,489 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:59:32,489 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:59:49,133 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:59:49,133 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:59:49,133 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 19:59:52,973 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 19:59:52,973 |WARNING | app | Model.pkl is not loaded
+2026-08-28 19:59:52,973 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:00:21,382 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:00:21,383 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:00:21,384 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:00:24,327 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:00:24,328 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:00:24,328 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:00:50,285 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:00:50,285 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:00:50,285 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:00:56,753 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:00:56,754 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:00:56,755 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:01:03,056 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:01:03,056 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:01:03,061 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:01:06,472 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:01:06,472 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:01:06,472 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:01:09,628 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:01:09,628 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:01:09,645 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:02:09,977 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:02:09,977 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:02:09,978 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:02:41,295 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:02:41,296 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:02:41,297 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:02:48,258 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:02:48,261 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:02:48,267 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:02:51,036 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:02:51,036 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:02:51,036 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:02:56,448 |INFO | app | Request Recived |request_id=a4d0e354-5298-40f8-ac9e-50e7b2e4f04d |method=POST |path=/predict 
+2026-08-28 20:02:56,550 |INFO | app | Response Sent |request_id=a4d0e354-5298-40f8-ac9e-50e7b2e4f04d |request_method=POST |path=/predict |response_time=0.1019084999570623 
+2026-08-28 20:03:26,752 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:03:26,753 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:03:26,753 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:03:35,679 |INFO | app | Request Recived |request_id=4ec926bc-576f-4587-87f0-bb14dc148cc5 |method=POST |path=/predict 
+2026-08-28 20:03:35,687 |INFO | app | Response Sent |request_id=4ec926bc-576f-4587-87f0-bb14dc148cc5 |request_method=POST |path=/predict |response_time=0.007523800013586879 
+2026-08-28 20:05:56,511 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:05:56,512 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:05:56,513 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:06:22,892 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:06:32,675 |INFO | app | Model.pkl is loaded Successfully
+2026-08-28 20:06:32,676 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:07:04,957 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:07:10,206 |INFO | app | Model.pkl is loaded Successfully
+2026-08-28 20:07:10,210 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:07:14,923 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:07:19,657 |INFO | app | Model.pkl is loaded Successfully
+2026-08-28 20:07:19,658 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:07:23,282 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:07:27,380 |INFO | app | Model.pkl is loaded Successfully
+2026-08-28 20:07:27,380 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:07:33,379 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:07:36,530 |INFO | app | Model.pkl is loaded Successfully
+2026-08-28 20:07:36,546 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:07:41,652 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:07:46,119 |INFO | app | Model.pkl is loaded Successfully
+2026-08-28 20:07:46,121 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:07:50,516 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:07:54,277 |INFO | app | Model.pkl is loaded Successfully
+2026-08-28 20:07:54,277 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:07:58,248 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:08:01,585 |INFO | app | Model.pkl is loaded Successfully
+2026-08-28 20:08:01,585 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:09:30,121 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:09:30,121 |WARNING | app | Model.pkl is not loaded
+2026-08-28 20:09:30,123 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:09:30,150 |INFO | app | Request Recived |request_id=df07f446-2b02-4a4e-9f77-a630a1d184b9 |method=POST |path=/predict 
+2026-08-28 20:09:30,158 |ERROR | app | Prediction erro |request_id=df07f446-2b02-4a4e-9f77-a630a1d184b9error='model'
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\main.py", line 135, in predict
+    result=model_data["model"].predict(input_data)
+           ~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+2026-08-28 20:09:30,163 |INFO | app | Response Sent |request_id=df07f446-2b02-4a4e-9f77-a630a1d184b9 |request_method=POST |path=/predict |response_time=0.012549699982628226 
+2026-08-28 20:09:38,991 |INFO | app | Request Recived |request_id=506813a4-b054-4c54-805a-5baf9885d923 |method=POST |path=/predict 
+2026-08-28 20:09:38,994 |ERROR | app | Prediction erro |request_id=506813a4-b054-4c54-805a-5baf9885d923error='model'
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\main.py", line 135, in predict
+    result=model_data["model"].predict(input_data)
+           ~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+2026-08-28 20:09:38,996 |INFO | app | Response Sent |request_id=506813a4-b054-4c54-805a-5baf9885d923 |request_method=POST |path=/predict |response_time=0.0050623000133782625 
+2026-08-28 20:11:21,199 |INFO | app | Request Recived |request_id=a7a08c21-ec8e-4bfa-a3db-e4f8d5e676ea |method=POST |path=/predict 
+2026-08-28 20:11:21,204 |ERROR | app | Prediction erro |request_id=a7a08c21-ec8e-4bfa-a3db-e4f8d5e676eaerror='model'
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\main.py", line 135, in predict
+    result=model_data["model"].predict(input_data)
+           ~~~~~~~~~~^^^^^^^^^
+KeyError: 'model'
+2026-08-28 20:11:21,207 |INFO | app | Response Sent |request_id=a7a08c21-ec8e-4bfa-a3db-e4f8d5e676ea |request_method=POST |path=/predict |response_time=0.008014200022444129 
+2026-08-28 20:11:32,714 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-28 20:11:39,967 |INFO | app | Model.pkl is loaded Successfully
+2026-08-28 20:11:39,968 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-28 20:11:39,978 |INFO | app | Request Recived |request_id=59defd0a-372c-462d-83ed-33bbb198c3a2 |method=POST |path=/predict 
+2026-08-28 20:11:40,242 |INFO | app | Response Sent |request_id=59defd0a-372c-462d-83ed-33bbb198c3a2 |request_method=POST |path=/predict |response_time=0.2649813999887556 
+2026-08-29 08:35:17,472 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-29 08:35:27,759 |INFO | app | Model.pkl is loaded Successfully
+2026-08-29 08:35:27,762 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-29 08:35:32,094 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-29 08:35:35,571 |INFO | app | Model.pkl is loaded Successfully
+2026-08-29 08:35:35,571 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-29 08:41:31,106 |INFO | app | Request Recived |request_id=7c95d4f8-79d3-4099-a5a6-36e5396a6f27 |method=GET |path=/health 
+2026-08-29 08:41:31,137 |INFO | app | Response Sent |request_id=7c95d4f8-79d3-4099-a5a6-36e5396a6f27 |request_method=GET |path=/health |response_time=0.033762000035494566 
+2026-08-29 08:42:09,088 |INFO | app | Request Recived |request_id=f5e0ed07-876b-46c3-9134-b2b32f03d21b |method=GET |path=/health 
+2026-08-29 08:42:09,095 |INFO | app | Response Sent |request_id=f5e0ed07-876b-46c3-9134-b2b32f03d21b |request_method=GET |path=/health |response_time=0.0023981999838724732 
+2026-08-29 08:42:38,714 |INFO | app | Model is shotdown
+2026-08-29 08:42:47,438 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-29 08:42:47,438 |WARNING | app | Model.pkl is not loaded
+2026-08-29 08:42:47,438 |WARNING | app | accuracy.pkl not loaded
+2026-08-29 08:42:52,610 |INFO | app | Request Recived |request_id=e070335e-708c-4c51-9286-45e825206ce3 |method=GET |path=/health 
+2026-08-29 08:42:52,622 |WARNING | app | PKL file is not active |method=GET|path=/health|
+2026-08-29 08:42:52,622 |INFO | app | Response Sent |request_id=e070335e-708c-4c51-9286-45e825206ce3 |request_method=GET |path=/health |response_time=0.01156240003183484 
+2026-08-29 08:43:04,911 |INFO | app | Model is shotdown
+2026-08-29 08:43:08,384 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-29 08:43:08,384 |WARNING | app | Model.pkl is not loaded
+2026-08-29 08:43:08,384 |WARNING | app | accuracy.pkl not loaded
+2026-08-29 08:43:12,793 |INFO | app | Request Recived |request_id=80f8c086-6a40-4f29-ad7d-a80617777401 |method=GET |path=/health 
+2026-08-29 08:43:12,802 |WARNING | app | PKL file is not active |method=GET|path=/health|
+2026-08-29 08:43:12,802 |INFO | app | Response Sent |request_id=80f8c086-6a40-4f29-ad7d-a80617777401 |request_method=GET |path=/health |response_time=0.010641700006090105 
+2026-08-29 08:43:23,635 |INFO | app | Model is shotdown
+2026-08-29 08:43:26,046 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-29 08:43:32,197 |INFO | app | Model.pkl is loaded Successfully
+2026-08-29 08:43:32,197 |WARNING | app | accuracy.pkl not loaded
+2026-08-29 08:43:32,211 |INFO | app | Request Recived |request_id=40bdcf91-8a44-45d6-99be-ccae4f532101 |method=GET |path=/health 
+2026-08-29 08:43:32,238 |INFO | app | Response Sent |request_id=40bdcf91-8a44-45d6-99be-ccae4f532101 |request_method=GET |path=/health |response_time=0.022147500072605908 
+2026-08-29 08:43:37,449 |INFO | app | Model is shotdown
+2026-08-29 08:43:39,947 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-29 08:43:42,353 |INFO | app | Model.pkl is loaded Successfully
+2026-08-29 08:43:42,353 |INFO | app | accuracy.pkl is loaded Successfully
+2026-08-29 08:43:47,960 |INFO | app | Request Recived |request_id=b6d7ba74-ae89-4d93-b89f-a1ea78eca2e9 |method=GET |path=/health 
+2026-08-29 08:43:47,968 |INFO | app | Response Sent |request_id=b6d7ba74-ae89-4d93-b89f-a1ea78eca2e9 |request_method=GET |path=/health |response_time=0.008569699944928288 
+2026-08-29 08:44:58,463 |INFO | app | Model is shotdown
+2026-08-29 08:45:02,619 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-29 08:45:04,880 |INFO | app | Model.pkl is loaded Successfully
+2026-08-29 08:45:04,880 |WARNING | app | accuracy.pkl not loaded
+2026-08-29 08:45:53,279 |INFO | app | Request Recived |request_id=f6f481fb-8bc3-4134-b383-114dc436be84 |method=GET |path=/health 
+2026-08-29 08:45:53,288 |INFO | app | Response Sent |request_id=f6f481fb-8bc3-4134-b383-114dc436be84 |request_method=GET |path=/health |response_time=0.008821099996566772 
+2026-08-29 08:46:05,454 |INFO | app | Request Recived |request_id=f6d3338c-2310-4c0d-ab35-e224f3e3a536 |method=GET |path=/health 
+2026-08-29 08:46:05,456 |INFO | app | Response Sent |request_id=f6d3338c-2310-4c0d-ab35-e224f3e3a536 |request_method=GET |path=/health |response_time=0.003165300004184246 
+2026-08-29 08:46:31,155 |INFO | app | Model is shotdown
