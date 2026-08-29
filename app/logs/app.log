@@ -397,3 +397,14 @@ KeyError: 'model'
 2026-08-29 08:46:05,454 |INFO | app | Request Recived |request_id=f6d3338c-2310-4c0d-ab35-e224f3e3a536 |method=GET |path=/health 
 2026-08-29 08:46:05,456 |INFO | app | Response Sent |request_id=f6d3338c-2310-4c0d-ab35-e224f3e3a536 |request_method=GET |path=/health |response_time=0.003165300004184246 
 2026-08-29 08:46:31,155 |INFO | app | Model is shotdown
+2026-08-29 08:46:33,995 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-29 08:46:36,451 |INFO | app | Model.pkl is loaded Successfully
+2026-08-29 08:46:36,451 |WARNING | app | accuracy.pkl not loaded
+2026-08-29 08:46:44,233 |INFO | app | Request Recived |request_id=1e2cda25-e699-41a7-afe3-d231d57e8b22 |method=GET |path=/health 
+2026-08-29 08:46:44,242 |WARNING | app | PKL file is not active |method=GET|path=/health|
+2026-08-29 08:46:44,242 |INFO | app | Response Sent |request_id=1e2cda25-e699-41a7-afe3-d231d57e8b22 |request_method=GET |path=/health |response_time=0.008171500056050718 
+2026-08-29 08:49:58,747 |INFO | app | Model is shotdown
+2026-08-29 08:50:06,228 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-08-29 08:50:11,731 |INFO | app | Model.pkl is loaded Successfully
+2026-08-29 08:50:11,736 |WARNING | app | accuracy.pkl not loaded
+2026-08-29 08:50:38,749 |INFO | app | Model is shotdown
