@@ -80,7 +80,11 @@ http://127.0.0.1:8000/health
 
 
 ## Response
-<img width="1238" height="671" alt="image" src="https://github.com/user-attachments/assets/2613454e-f5ad-465a-9c56-d1519a5038dd" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/2613454e-f5ad-465a-9c56-d1519a5038dd" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/4abefacc-fcc6-4e03-867f-1695057cb170" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/9114914a-0703-4ae0-bce3-1b3019d22e67" />
+
+
 
 
 
