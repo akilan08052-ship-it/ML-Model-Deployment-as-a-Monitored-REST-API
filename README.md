@@ -80,10 +80,9 @@ http://127.0.0.1:8000/health
 
 
 ## Response
+<img width="1238" height="671" alt="image" src="https://github.com/user-attachments/assets/2613454e-f5ad-465a-9c56-d1519a5038dd" />
 
-```image
-![alt text](image-1.png)
-```
+
 
 
 
