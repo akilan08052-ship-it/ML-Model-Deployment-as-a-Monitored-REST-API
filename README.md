@@ -7,7 +7,6 @@
  - FastAPI
  - Uvicorn
  - Pydantic
- - Pandas
  - Scikit-learn
  - Swagger
  - Prometheus
