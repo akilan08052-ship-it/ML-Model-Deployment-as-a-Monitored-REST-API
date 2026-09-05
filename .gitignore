@@ -1,4 +1,4 @@
 fenv
 __pycache__/
 .app/logs/*.log
-.fenv
+.env
