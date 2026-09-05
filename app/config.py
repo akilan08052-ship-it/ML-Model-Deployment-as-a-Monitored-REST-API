@@ -10,6 +10,7 @@ class Settings(BaseSettings):
 
 
     API_V1_STR:str 
+    API_V2_STR:str
     MODEL_PKL_PATH:str
     ACCURACY_PKL_PATH:str
 

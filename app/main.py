@@ -1,5 +1,5 @@
 from fastapi import FastAPI,Request
-from app.routes import v1
+from app.routes import v1,v2
 from .logging_config import setup
 from app.config import settings
 import joblib
@@ -57,7 +57,9 @@ async def lifespan(app:FastAPI):
     
     gc.collect()
 
-app=FastAPI(lifespan=lifespan,title="Iris flower prediction API",version="1.0.0")
+app=FastAPI(lifespan=lifespan)
+
+
 @app.middleware("http")
 async def rr_handler(request:Request,call_next):
     start_time=time.perf_counter()
@@ -91,6 +93,7 @@ async def rr_handler(request:Request,call_next):
         
     return response
 app.include_router(v1.router)
+app.include_router(v2.router)
 
 
 

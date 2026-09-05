@@ -1400,3 +1400,1443 @@ AttributeError: 'NoneType' object has no attribute 'predict'
 2026-09-04 10:00:38,084 |INFO | app | Model.pkl is loaded Successfully
 2026-09-04 10:00:38,086 |INFO | app | accuracy.pkl is loaded Successfully
 2026-09-04 10:01:15,390 |INFO | app | Model is shotdown
+2026-09-04 11:23:17,580 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 11:23:39,903 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 11:23:39,983 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 11:31:45,885 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 11:31:52,762 |INFO | app | Request Recived |request_id=7b8deb45-c1f3-4dea-912f-8acc20c4381b |method=POST |path=/api/v1/batch-prediction 
+2026-09-04 11:31:53,318 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 11:31:53,318 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 11:31:54,119 |INFO | app | Response Sent |request_id=7b8deb45-c1f3-4dea-912f-8acc20c4381b |request_method=POST |path=/api/v1/batch-prediction |response_time=1.3809550001751631 
+2026-09-04 11:35:34,662 |INFO | app | Model is shotdown
+2026-09-04 11:35:34,745 |INFO | app | Model is shotdown
+2026-09-04 11:35:40,364 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 11:35:40,583 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 11:35:47,285 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 11:35:47,288 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 11:35:47,285 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 11:36:46,641 |INFO | app | Model is shotdown
+2026-09-04 11:36:46,641 |INFO | app | Model is shotdown
+2026-09-04 11:36:51,061 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 11:36:51,066 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 11:36:54,111 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 11:36:54,121 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 11:36:54,121 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 11:36:54,121 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 11:40:13,529 |INFO | app | Model is shotdown
+2026-09-04 11:40:13,529 |INFO | app | Model is shotdown
+2026-09-04 12:45:51,491 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:46:11,217 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:46:11,218 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:46:18,707 |INFO | app | Model is shotdown
+2026-09-04 12:46:29,174 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:46:36,187 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:46:36,195 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:47:29,013 |INFO | app | Request Recived |request_id=6e77abaf-db01-4ffc-86b4-22719d9fffa2 |method=GET |path=/api/v1/ 
+2026-09-04 12:47:29,025 |INFO | app | Response Sent |request_id=6e77abaf-db01-4ffc-86b4-22719d9fffa2 |request_method=GET |path=/api/v1/ |response_time=0.012956000166013837 
+2026-09-04 12:49:35,625 |INFO | app | Model is shotdown
+2026-09-04 12:49:45,265 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:49:54,876 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:49:54,887 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:49:55,001 |INFO | app | Model is shotdown
+2026-09-04 12:50:01,237 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:50:04,755 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:50:04,772 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:50:28,899 |INFO | app | Model is shotdown
+2026-09-04 12:50:32,540 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:50:35,978 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:50:35,978 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:50:36,085 |INFO | app | Model is shotdown
+2026-09-04 12:50:39,459 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:50:42,196 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:50:42,198 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:52:01,243 |INFO | app | Model is shotdown
+2026-09-04 12:52:07,885 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:52:11,648 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:52:11,651 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:52:24,912 |INFO | app | Model is shotdown
+2026-09-04 12:52:31,866 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:52:34,974 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:52:34,974 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:52:42,061 |INFO | app | Model is shotdown
+2026-09-04 12:52:46,831 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:52:49,619 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:52:49,619 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:52:51,643 |INFO | app | Model is shotdown
+2026-09-04 12:52:54,931 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:52:59,154 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:52:59,155 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:52:59,259 |INFO | app | Model is shotdown
+2026-09-04 12:59:11,380 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 12:59:20,014 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 12:59:20,027 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 12:59:34,476 |INFO | app | Request Recived |request_id=5330139e-b260-4fe0-9025-9422216f826c |method=POST |path=/api/v1/predict 
+2026-09-04 12:59:34,913 |INFO | app | Response Sent |request_id=5330139e-b260-4fe0-9025-9422216f826c |request_method=POST |path=/api/v1/predict |response_time=0.4371523999143392 
+2026-09-04 13:01:43,544 |INFO | app | Model is shotdown
+2026-09-04 13:01:59,598 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:02:08,916 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:02:08,926 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:03:46,528 |INFO | app | Request Recived |request_id=206eba76-b5a4-4159-acfe-00b8161cd283 |method=POST |path=/api/v1/predict 
+2026-09-04 13:03:47,101 |INFO | app | Response Sent |request_id=206eba76-b5a4-4159-acfe-00b8161cd283 |request_method=POST |path=/api/v1/predict |response_time=0.5722523999866098 
+2026-09-04 13:05:27,570 |INFO | app | Model is shotdown
+2026-09-04 13:05:39,246 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:05:48,470 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:05:48,471 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:05:48,580 |INFO | app | Model is shotdown
+2026-09-04 13:05:52,923 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:05:57,316 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:05:57,316 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:05:57,335 |INFO | app | Request Recived |request_id=86b893fc-395f-42b0-b9bf-89ca608366c1 |method=POST |path=/api/v1/predict 
+2026-09-04 13:05:57,493 |ERROR | app | Prediction error |request_id=86b893fc-395f-42b0-b9bf-89ca608366c1error='str' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 40, in predict
+    result=request.app.state,"model".predict(input_data)
+                             ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'predict'
+2026-09-04 13:05:57,506 |INFO | app | Response Sent |request_id=86b893fc-395f-42b0-b9bf-89ca608366c1 |request_method=POST |path=/api/v1/predict |response_time=0.18423969997093081 
+2026-09-04 13:06:11,991 |INFO | app | Request Recived |request_id=93003722-2f58-402c-bfcc-1ba39420c590 |method=POST |path=/api/v1/predict 
+2026-09-04 13:06:11,994 |ERROR | app | Prediction error |request_id=93003722-2f58-402c-bfcc-1ba39420c590error='str' object has no attribute 'predict'
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 40, in predict
+    result=request.app.state,"model".predict(input_data)
+                             ^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'predict'
+2026-09-04 13:06:11,996 |INFO | app | Response Sent |request_id=93003722-2f58-402c-bfcc-1ba39420c590 |request_method=POST |path=/api/v1/predict |response_time=0.005168499890714884 
+2026-09-04 13:06:28,044 |INFO | app | Model is shotdown
+2026-09-04 13:06:36,616 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:06:42,793 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:06:42,797 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:06:42,908 |INFO | app | Model is shotdown
+2026-09-04 13:06:45,738 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:06:49,828 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:06:49,830 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:06:51,833 |INFO | app | Model is shotdown
+2026-09-04 13:06:56,895 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:07:01,015 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:07:01,016 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:07:01,124 |INFO | app | Model is shotdown
+2026-09-04 13:07:04,945 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:07:08,473 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:07:08,477 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:07:08,589 |INFO | app | Model is shotdown
+2026-09-04 13:07:13,091 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:07:16,704 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:07:16,704 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:07:20,874 |INFO | app | Model is shotdown
+2026-09-04 13:07:25,382 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:07:28,698 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:07:28,698 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:07:28,808 |INFO | app | Model is shotdown
+2026-09-04 13:07:32,176 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:07:34,811 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:07:34,812 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:07:38,750 |INFO | app | Request Recived |request_id=5b1f3835-26c2-4823-b77e-ce74450aacf5 |method=POST |path=/api/v1/predict 
+2026-09-04 13:07:39,074 |INFO | app | Response Sent |request_id=5b1f3835-26c2-4823-b77e-ce74450aacf5 |request_method=POST |path=/api/v1/predict |response_time=0.3229772001504898 
+2026-09-04 13:09:41,263 |INFO | app | Model is shotdown
+2026-09-04 13:09:49,594 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:09:55,750 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:09:55,752 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:09:55,861 |INFO | app | Model is shotdown
+2026-09-04 13:09:59,122 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:10:01,678 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:10:01,678 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:10:12,193 |INFO | app | Model is shotdown
+2026-09-04 13:10:16,460 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:10:18,703 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:10:18,705 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:10:30,047 |INFO | app | Model is shotdown
+2026-09-04 13:10:34,839 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:10:38,508 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:10:38,509 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:10:38,614 |INFO | app | Model is shotdown
+2026-09-04 13:10:41,861 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:10:44,682 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:10:44,682 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:11:05,594 |INFO | app | Model is shotdown
+2026-09-04 13:11:08,806 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:11:12,057 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:11:12,057 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:11:12,161 |INFO | app | Model is shotdown
+2026-09-04 13:11:15,191 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:11:17,761 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:11:17,761 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:11:25,745 |INFO | app | Request Recived |request_id=05ec85f6-bbf0-42a9-813a-7a1aa15a66de |method=POST |path=/api/v1/predict 
+2026-09-04 13:11:25,854 |ERROR | app | Prediction error |request_id=05ec85f6-bbf0-42a9-813a-7a1aa15a66deerror='APIRouter' object has no attribute 'state'
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 40, in predict
+    model=router.state.model
+          ^^^^^^^^^^^^
+AttributeError: 'APIRouter' object has no attribute 'state'
+2026-09-04 13:11:37,793 |INFO | app | Model is shotdown
+2026-09-04 13:11:42,809 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:11:45,211 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:11:45,212 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:11:53,334 |INFO | app | Request Recived |request_id=a0daa354-5064-4cd3-9b3a-6297493cd6dd |method=POST |path=/api/v1/predict 
+2026-09-04 13:11:53,343 |ERROR | app | Prediction error |request_id=a0daa354-5064-4cd3-9b3a-6297493cd6dderror='function' object has no attribute 'state'
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 40, in predict
+    model=router.app.state.model
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'state'
+2026-09-04 13:12:11,764 |INFO | app | Model is shotdown
+2026-09-04 13:12:15,490 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:12:19,233 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:12:19,234 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:12:27,601 |INFO | app | Model is shotdown
+2026-09-04 13:12:38,161 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:12:45,735 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:12:45,750 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:12:45,859 |INFO | app | Model is shotdown
+2026-09-04 13:14:48,666 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:14:56,222 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:14:56,223 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:17:30,157 |INFO | app | Model is shotdown
+2026-09-04 13:17:37,271 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:17:43,609 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:17:43,639 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:17:43,768 |INFO | app | Model is shotdown
+2026-09-04 13:17:48,291 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:17:53,365 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:17:53,366 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:17:53,475 |INFO | app | Model is shotdown
+2026-09-04 13:17:58,926 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:18:02,171 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:18:02,172 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:18:02,274 |INFO | app | Model is shotdown
+2026-09-04 13:18:06,303 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:18:09,897 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:18:09,897 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:18:10,006 |INFO | app | Model is shotdown
+2026-09-04 13:18:14,650 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:18:18,645 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:18:18,650 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:18:18,758 |INFO | app | Model is shotdown
+2026-09-04 13:18:22,634 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:18:25,618 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:18:25,624 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:18:25,728 |INFO | app | Model is shotdown
+2026-09-04 13:18:29,758 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:18:32,380 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:18:32,380 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:18:32,488 |INFO | app | Model is shotdown
+2026-09-04 13:18:36,829 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:18:39,944 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:18:39,944 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:19:08,302 |INFO | app | Model is shotdown
+2026-09-04 13:19:13,294 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:19:15,449 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:19:15,453 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:22:27,328 |INFO | app | Model is shotdown
+2026-09-04 13:22:32,800 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:22:35,866 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:22:35,866 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:22:35,977 |INFO | app | Model is shotdown
+2026-09-04 13:22:39,489 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:22:42,071 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:22:42,071 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:23:19,767 |INFO | app | Model is shotdown
+2026-09-04 13:23:23,463 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:23:25,465 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:23:25,465 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:24:14,782 |INFO | app | Model is shotdown
+2026-09-04 13:24:24,517 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:24:30,137 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:24:30,161 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:24:30,273 |INFO | app | Model is shotdown
+2026-09-04 13:24:34,168 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:24:36,696 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:24:36,697 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:24:58,921 |INFO | app | Model is shotdown
+2026-09-04 13:25:05,587 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:25:07,946 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:25:07,946 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:25:08,055 |INFO | app | Model is shotdown
+2026-09-04 13:25:12,215 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:25:15,253 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:25:15,254 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:25:15,369 |INFO | app | Model is shotdown
+2026-09-04 13:25:19,641 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:25:22,442 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:25:22,443 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:25:38,335 |INFO | app | Model is shotdown
+2026-09-04 13:25:41,800 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:25:45,085 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:25:45,085 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:25:45,202 |INFO | app | Model is shotdown
+2026-09-04 13:25:48,633 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:25:51,053 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:25:51,053 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:25:59,930 |INFO | app | Model is shotdown
+2026-09-04 13:26:04,507 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:26:07,574 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:26:07,577 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:26:07,709 |INFO | app | Model is shotdown
+2026-09-04 13:26:11,050 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:26:13,672 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:26:13,672 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:26:13,784 |INFO | app | Model is shotdown
+2026-09-04 13:26:18,336 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:26:27,899 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:26:27,901 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:26:28,013 |INFO | app | Model is shotdown
+2026-09-04 13:26:34,560 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:26:37,900 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:26:37,900 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:26:38,008 |INFO | app | Model is shotdown
+2026-09-04 13:26:42,800 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:26:45,670 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:26:45,678 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:26:45,786 |INFO | app | Model is shotdown
+2026-09-04 13:26:49,289 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:26:54,062 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:26:54,062 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:28:10,915 |INFO | app | Model is shotdown
+2026-09-04 13:28:15,255 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:28:18,005 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:28:18,006 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:28:25,917 |INFO | app | Model is shotdown
+2026-09-04 13:28:32,107 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:28:34,888 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:28:34,900 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:28:35,013 |INFO | app | Model is shotdown
+2026-09-04 13:28:38,692 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:28:41,334 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:28:41,335 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:28:41,437 |INFO | app | Model is shotdown
+2026-09-04 13:28:44,821 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:28:48,075 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:28:48,077 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:29:06,808 |INFO | app | Model is shotdown
+2026-09-04 13:29:10,444 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:29:13,256 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:29:13,258 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:29:16,612 |INFO | app | Model is shotdown
+2026-09-04 13:29:20,239 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:29:23,728 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:29:23,730 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:29:23,839 |INFO | app | Model is shotdown
+2026-09-04 13:29:28,417 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:29:31,404 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:29:31,404 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:29:31,507 |INFO | app | Model is shotdown
+2026-09-04 13:29:34,825 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:29:37,609 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:29:37,609 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:29:37,710 |INFO | app | Model is shotdown
+2026-09-04 13:29:41,112 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:29:45,187 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:29:45,187 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:30:00,624 |INFO | app | Model is shotdown
+2026-09-04 13:30:04,644 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:30:11,495 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:30:11,497 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:30:11,608 |INFO | app | Model is shotdown
+2026-09-04 13:30:16,643 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:30:19,547 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:30:19,547 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:30:19,658 |INFO | app | Model is shotdown
+2026-09-04 13:30:23,171 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:30:27,011 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:30:27,016 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:30:27,130 |INFO | app | Model is shotdown
+2026-09-04 13:30:32,835 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:30:36,054 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:30:36,057 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:30:36,171 |INFO | app | Model is shotdown
+2026-09-04 13:30:40,069 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:30:43,067 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:30:43,069 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:33:14,301 |INFO | app | Model is shotdown
+2026-09-04 13:33:22,047 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:33:30,491 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:33:30,491 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:33:30,599 |INFO | app | Model is shotdown
+2026-09-04 13:33:34,816 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:33:38,080 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:33:38,083 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:33:38,203 |INFO | app | Model is shotdown
+2026-09-04 13:33:41,739 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:33:44,336 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:33:44,336 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:34:16,159 |INFO | app | Model is shotdown
+2026-09-04 13:34:25,678 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:34:31,926 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:34:31,927 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:34:32,031 |INFO | app | Model is shotdown
+2026-09-04 13:34:37,344 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:34:40,881 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:34:40,881 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:34:40,982 |INFO | app | Model is shotdown
+2026-09-04 13:34:44,223 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:34:47,367 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:34:47,367 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:35:21,345 |INFO | app | Model is shotdown
+2026-09-04 13:35:25,985 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:35:29,013 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:35:29,013 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:36:25,322 |INFO | app | Model is shotdown
+2026-09-04 13:36:29,416 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:36:32,107 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:36:32,110 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:36:32,222 |INFO | app | Model is shotdown
+2026-09-04 13:36:36,161 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:36:38,923 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:36:38,923 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:36:39,038 |INFO | app | Model is shotdown
+2026-09-04 13:36:42,422 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:36:49,413 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:36:49,415 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:37:01,272 |INFO | app | Model is shotdown
+2026-09-04 13:37:04,561 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:37:07,179 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:37:07,179 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:37:07,288 |INFO | app | Model is shotdown
+2026-09-04 13:37:10,738 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:37:13,624 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:37:13,625 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:37:13,737 |INFO | app | Model is shotdown
+2026-09-04 13:37:16,949 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:37:20,526 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:37:20,532 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:37:20,688 |INFO | app | Model is shotdown
+2026-09-04 13:37:25,653 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:37:29,270 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:37:29,271 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:37:29,376 |INFO | app | Model is shotdown
+2026-09-04 13:37:33,125 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:37:36,840 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:37:36,840 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:38:35,118 |INFO | app | Model is shotdown
+2026-09-04 13:38:39,292 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:38:43,539 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:38:43,541 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:38:43,667 |INFO | app | Model is shotdown
+2026-09-04 13:38:48,046 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:38:52,323 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:38:52,325 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:38:53,389 |INFO | app | Model is shotdown
+2026-09-04 13:38:56,922 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:39:00,921 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:39:00,922 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:39:09,052 |INFO | app | Model is shotdown
+2026-09-04 13:39:12,134 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:39:14,730 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:39:14,731 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:41:58,397 |INFO | app | Model is shotdown
+2026-09-04 13:42:04,714 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:42:08,159 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:42:08,159 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:42:11,492 |INFO | app | Model is shotdown
+2026-09-04 13:42:16,296 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:42:21,079 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:42:21,079 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:42:21,201 |INFO | app | Model is shotdown
+2026-09-04 13:42:26,270 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:42:29,400 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:42:29,400 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:42:29,522 |INFO | app | Model is shotdown
+2026-09-04 13:42:34,339 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:42:40,849 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:42:40,866 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:42:40,995 |INFO | app | Model is shotdown
+2026-09-04 13:42:49,866 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:42:53,213 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:42:53,213 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:42:53,324 |INFO | app | Model is shotdown
+2026-09-04 13:42:56,770 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:43:01,042 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:43:01,042 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:43:01,154 |INFO | app | Model is shotdown
+2026-09-04 13:43:05,919 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:43:09,435 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:43:09,435 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:43:18,239 |INFO | app | Model is shotdown
+2026-09-04 13:43:23,671 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:43:29,097 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:43:29,099 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-04 13:43:29,204 |INFO | app | Model is shotdown
+2026-09-04 13:43:32,849 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-04 13:43:36,305 |INFO | app | Model.pkl is loaded Successfully
+2026-09-04 13:43:36,307 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:50:06,671 |INFO | app | Model is shotdown
+2026-09-05 09:50:27,924 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:50:37,702 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:50:37,728 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:50:37,893 |INFO | app | Model is shotdown
+2026-09-05 09:50:50,363 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:51:01,459 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:51:01,466 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:51:01,584 |INFO | app | Model is shotdown
+2026-09-05 09:51:09,924 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:51:14,146 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:51:14,147 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:51:14,250 |INFO | app | Model is shotdown
+2026-09-05 09:51:19,846 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:51:23,257 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:51:23,257 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:51:23,361 |INFO | app | Model is shotdown
+2026-09-05 09:51:28,796 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:51:32,007 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:51:32,011 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:51:32,127 |INFO | app | Model is shotdown
+2026-09-05 09:51:37,455 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:51:41,422 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:51:41,423 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:51:41,531 |INFO | app | Model is shotdown
+2026-09-05 09:51:46,224 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:51:50,092 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:51:50,210 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:51:56,076 |INFO | app | Model is shotdown
+2026-09-05 09:51:59,282 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:52:02,544 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:52:02,544 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:52:02,654 |INFO | app | Model is shotdown
+2026-09-05 09:52:06,246 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:52:09,974 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:52:09,983 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:52:10,154 |INFO | app | Model is shotdown
+2026-09-05 09:52:14,768 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:52:19,677 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:52:19,689 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:52:19,897 |INFO | app | Model is shotdown
+2026-09-05 09:52:24,452 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:52:28,369 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:52:28,369 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:52:33,252 |INFO | app | Model is shotdown
+2026-09-05 09:52:37,567 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:52:41,454 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:52:41,455 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:52:41,586 |INFO | app | Model is shotdown
+2026-09-05 09:52:46,682 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:52:49,720 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:52:49,722 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:52:49,832 |INFO | app | Model is shotdown
+2026-09-05 09:52:52,794 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:52:55,654 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:52:55,655 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:53:06,888 |INFO | app | Model is shotdown
+2026-09-05 09:53:09,861 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:53:12,361 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:53:12,361 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:53:12,477 |INFO | app | Model is shotdown
+2026-09-05 09:53:15,523 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:53:19,633 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:53:19,634 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:53:19,742 |INFO | app | Model is shotdown
+2026-09-05 09:53:22,957 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:53:26,562 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:53:26,563 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:53:26,675 |INFO | app | Model is shotdown
+2026-09-05 09:53:30,755 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:53:42,485 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:53:42,505 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:53:42,623 |INFO | app | Model is shotdown
+2026-09-05 09:53:49,782 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:53:53,842 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:53:53,843 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:53:53,950 |INFO | app | Model is shotdown
+2026-09-05 09:53:57,628 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:54:01,510 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:54:01,513 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:54:03,014 |INFO | app | Model is shotdown
+2026-09-05 09:54:07,580 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:54:13,581 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:54:13,582 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:54:13,693 |INFO | app | Model is shotdown
+2026-09-05 09:54:17,997 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:54:24,126 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:54:24,166 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:54:24,290 |INFO | app | Model is shotdown
+2026-09-05 09:54:28,856 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:54:32,054 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:54:32,055 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:54:32,173 |INFO | app | Model is shotdown
+2026-09-05 09:54:35,755 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:54:39,666 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:54:39,673 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:54:46,532 |INFO | app | Model is shotdown
+2026-09-05 09:54:51,068 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:54:53,840 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:54:53,840 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:55:17,000 |INFO | app | Model is shotdown
+2026-09-05 09:55:20,403 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:55:23,543 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:55:23,543 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:55:29,553 |INFO | app | Model is shotdown
+2026-09-05 09:55:34,042 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:55:37,653 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:55:37,655 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:55:37,771 |INFO | app | Model is shotdown
+2026-09-05 09:55:41,402 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:55:44,150 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:55:44,166 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:55:44,281 |INFO | app | Model is shotdown
+2026-09-05 09:55:49,618 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:55:52,649 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:55:52,649 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:55:52,749 |INFO | app | Model is shotdown
+2026-09-05 09:55:57,160 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:56:00,470 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:56:00,471 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:56:00,588 |INFO | app | Model is shotdown
+2026-09-05 09:56:04,311 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:56:07,580 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:56:07,582 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:56:07,683 |INFO | app | Model is shotdown
+2026-09-05 09:56:11,816 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:56:15,130 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:56:15,130 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:56:15,236 |INFO | app | Model is shotdown
+2026-09-05 09:56:18,130 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:56:21,554 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:56:21,559 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:56:21,667 |INFO | app | Model is shotdown
+2026-09-05 09:56:26,490 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:56:29,627 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:56:29,627 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:56:29,740 |INFO | app | Model is shotdown
+2026-09-05 09:56:33,958 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:56:36,884 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:56:36,888 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:56:37,001 |INFO | app | Model is shotdown
+2026-09-05 09:56:40,771 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:56:43,606 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:56:43,606 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:56:43,713 |INFO | app | Model is shotdown
+2026-09-05 09:56:46,887 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:56:51,335 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:56:51,336 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:56:51,443 |INFO | app | Model is shotdown
+2026-09-05 09:56:54,807 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:56:57,591 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:56:57,592 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:56:57,699 |INFO | app | Model is shotdown
+2026-09-05 09:57:02,268 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:57:05,349 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:57:05,350 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:57:07,116 |INFO | app | Model is shotdown
+2026-09-05 09:57:10,237 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:57:13,365 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:57:13,365 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:57:13,481 |INFO | app | Model is shotdown
+2026-09-05 09:57:17,747 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:57:24,086 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:57:24,088 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:57:24,199 |INFO | app | Model is shotdown
+2026-09-05 09:57:28,314 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:57:31,474 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:57:31,476 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:57:38,948 |INFO | app | Model is shotdown
+2026-09-05 09:57:42,566 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:57:45,745 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:57:45,745 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:57:52,367 |INFO | app | Model is shotdown
+2026-09-05 09:57:55,583 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:57:58,409 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:57:58,409 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:57:58,512 |INFO | app | Model is shotdown
+2026-09-05 09:58:02,212 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:58:05,225 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:58:05,227 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:58:08,462 |INFO | app | Model is shotdown
+2026-09-05 09:58:11,158 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:58:14,195 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:58:14,213 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:58:14,335 |INFO | app | Model is shotdown
+2026-09-05 09:58:17,295 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:58:19,800 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:58:19,801 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:58:19,918 |INFO | app | Model is shotdown
+2026-09-05 09:58:24,295 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:58:28,213 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:58:28,215 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:58:28,332 |INFO | app | Model is shotdown
+2026-09-05 09:58:33,058 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:58:36,602 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:58:36,603 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:58:36,711 |INFO | app | Model is shotdown
+2026-09-05 09:58:41,921 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:58:44,938 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:58:44,940 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:58:45,043 |INFO | app | Model is shotdown
+2026-09-05 09:58:49,867 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:58:52,324 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:58:52,325 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:58:52,430 |INFO | app | Model is shotdown
+2026-09-05 09:59:05,109 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:59:08,320 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:59:08,320 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:59:08,423 |INFO | app | Model is shotdown
+2026-09-05 09:59:12,414 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:59:14,777 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:59:14,778 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:59:14,894 |INFO | app | Model is shotdown
+2026-09-05 09:59:18,394 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:59:21,434 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:59:21,441 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:59:21,555 |INFO | app | Model is shotdown
+2026-09-05 09:59:24,446 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:59:27,592 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:59:27,592 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:59:27,696 |INFO | app | Model is shotdown
+2026-09-05 09:59:34,096 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:59:37,099 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:59:37,099 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:59:37,205 |INFO | app | Model is shotdown
+2026-09-05 09:59:41,073 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:59:44,565 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:59:44,565 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:59:44,682 |INFO | app | Model is shotdown
+2026-09-05 09:59:49,095 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 09:59:52,336 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 09:59:52,337 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 09:59:52,440 |INFO | app | Model is shotdown
+2026-09-05 09:59:57,602 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:00:00,744 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:00:00,745 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:00:00,857 |INFO | app | Model is shotdown
+2026-09-05 10:00:04,773 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:00:07,871 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:00:07,872 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:00:07,976 |INFO | app | Model is shotdown
+2026-09-05 10:00:10,994 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:00:13,636 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:00:13,641 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:00:13,742 |INFO | app | Model is shotdown
+2026-09-05 10:00:17,527 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:00:20,211 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:00:20,212 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:00:28,834 |INFO | app | Model is shotdown
+2026-09-05 10:00:32,085 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:00:35,357 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:00:35,357 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:00:37,921 |INFO | app | Model is shotdown
+2026-09-05 10:00:41,408 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:00:44,613 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:00:44,613 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:00:44,719 |INFO | app | Model is shotdown
+2026-09-05 10:00:47,907 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:00:50,111 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:00:50,111 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:00:57,138 |INFO | app | Model is shotdown
+2026-09-05 10:01:00,759 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:01:03,437 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:01:03,438 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:01:03,988 |INFO | app | Model is shotdown
+2026-09-05 10:01:07,522 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:01:12,045 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:01:12,046 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:01:12,155 |INFO | app | Model is shotdown
+2026-09-05 10:01:15,969 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:01:19,994 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:01:20,003 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:01:20,125 |INFO | app | Model is shotdown
+2026-09-05 10:01:27,319 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:01:30,365 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:01:30,365 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:01:30,487 |INFO | app | Model is shotdown
+2026-09-05 10:01:35,543 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:01:39,702 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:01:39,703 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:01:39,808 |INFO | app | Model is shotdown
+2026-09-05 10:01:43,023 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:01:45,980 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:01:45,980 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:01:46,083 |INFO | app | Model is shotdown
+2026-09-05 10:01:49,320 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:01:52,644 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:01:52,647 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:01:56,717 |INFO | app | Model is shotdown
+2026-09-05 10:01:59,787 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:02:03,023 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:02:03,023 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:02:03,133 |INFO | app | Model is shotdown
+2026-09-05 10:02:07,370 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:02:10,566 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:02:10,566 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:02:10,684 |INFO | app | Model is shotdown
+2026-09-05 10:02:14,421 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:02:17,412 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:02:17,412 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:02:17,514 |INFO | app | Model is shotdown
+2026-09-05 10:02:22,307 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:02:25,888 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:02:25,889 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:02:26,002 |INFO | app | Model is shotdown
+2026-09-05 10:02:31,237 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:02:37,566 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:02:37,568 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:02:37,679 |INFO | app | Model is shotdown
+2026-09-05 10:02:41,995 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:02:44,743 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:02:44,744 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:02:44,850 |INFO | app | Model is shotdown
+2026-09-05 10:02:48,458 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:02:51,745 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:02:51,747 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:03:06,068 |INFO | app | Model is shotdown
+2026-09-05 10:03:08,953 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:03:12,209 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:03:12,210 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:03:12,315 |INFO | app | Model is shotdown
+2026-09-05 10:03:15,886 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:03:18,004 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:03:18,005 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:03:18,116 |INFO | app | Model is shotdown
+2026-09-05 10:03:20,515 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:03:23,952 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:03:23,953 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:04:05,584 |INFO | app | Model is shotdown
+2026-09-05 10:04:09,247 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:04:12,386 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:04:12,386 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:04:12,500 |INFO | app | Model is shotdown
+2026-09-05 10:04:16,157 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:04:19,150 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:04:19,151 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:04:24,885 |INFO | app | Model is shotdown
+2026-09-05 10:04:27,526 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:04:30,005 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:04:30,005 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:04:47,726 |INFO | app | Model is shotdown
+2026-09-05 10:04:53,143 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:04:57,388 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:04:57,390 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:04:57,507 |INFO | app | Model is shotdown
+2026-09-05 10:05:04,040 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:05:08,233 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:05:08,234 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:05:08,340 |INFO | app | Model is shotdown
+2026-09-05 10:05:13,829 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:05:18,441 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:05:18,444 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:05:18,560 |INFO | app | Model is shotdown
+2026-09-05 10:05:23,174 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:05:26,480 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:05:26,482 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:05:39,143 |INFO | app | Model is shotdown
+2026-09-05 10:05:42,715 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:05:46,196 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:05:46,196 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:05:46,303 |INFO | app | Model is shotdown
+2026-09-05 10:05:50,563 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:05:54,175 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:05:54,176 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:05:54,290 |INFO | app | Model is shotdown
+2026-09-05 10:05:59,319 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:06:03,162 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:06:03,163 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:06:03,272 |INFO | app | Model is shotdown
+2026-09-05 10:06:06,847 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:06:09,682 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:06:09,693 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:06:12,405 |INFO | app | Model is shotdown
+2026-09-05 10:06:15,960 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:06:18,664 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:06:18,664 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:06:23,006 |INFO | app | Model is shotdown
+2026-09-05 10:06:27,074 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:06:29,756 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:06:29,758 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:06:29,873 |INFO | app | Model is shotdown
+2026-09-05 10:06:33,473 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:06:36,110 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:06:36,110 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:06:36,218 |INFO | app | Model is shotdown
+2026-09-05 10:06:39,123 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:06:41,784 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:06:41,784 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:06:44,357 |INFO | app | Model is shotdown
+2026-09-05 10:06:48,380 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:06:51,111 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:06:51,111 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:07:06,671 |INFO | app | Model is shotdown
+2026-09-05 10:07:09,957 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:07:12,807 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:07:12,807 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:09:14,078 |INFO | app | Model is shotdown
+2026-09-05 10:09:17,047 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:09:19,782 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:09:19,783 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:11:02,388 |INFO | app | Model is shotdown
+2026-09-05 10:11:06,052 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:11:09,141 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:11:09,141 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:11:09,256 |INFO | app | Model is shotdown
+2026-09-05 10:11:12,749 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:11:15,620 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:11:15,620 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:11:15,723 |INFO | app | Model is shotdown
+2026-09-05 10:11:18,599 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:11:21,230 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:11:21,243 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:13:00,526 |INFO | app | Model is shotdown
+2026-09-05 10:13:07,617 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:13:13,527 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:13:13,547 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:13:51,785 |INFO | app | Model is shotdown
+2026-09-05 10:13:55,164 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:14:01,458 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:14:01,462 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:14:01,584 |INFO | app | Model is shotdown
+2026-09-05 10:14:14,719 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:14:19,987 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:14:19,991 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:15:18,453 |INFO | app | Model is shotdown
+2026-09-05 10:15:26,607 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:15:32,993 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:15:32,994 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:15:33,112 |INFO | app | Model is shotdown
+2026-09-05 10:15:37,015 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:15:40,345 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:15:40,345 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:16:33,664 |INFO | app | Model is shotdown
+2026-09-05 10:16:37,292 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:16:40,541 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:16:40,542 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:16:42,993 |INFO | app | Model is shotdown
+2026-09-05 10:16:47,363 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:16:50,921 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:16:50,923 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:16:59,195 |INFO | app | Model is shotdown
+2026-09-05 10:17:02,187 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:17:05,411 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:17:05,441 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:17:07,424 |INFO | app | Model is shotdown
+2026-09-05 10:17:10,357 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:17:14,195 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:17:14,198 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:17:14,309 |INFO | app | Model is shotdown
+2026-09-05 10:17:17,700 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:17:20,855 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:17:20,857 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:17:24,211 |INFO | app | Model is shotdown
+2026-09-05 10:17:27,273 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:17:30,175 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:17:30,179 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:18:07,976 |INFO | app | Model is shotdown
+2026-09-05 10:18:11,017 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:18:13,729 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:18:13,729 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:18:13,837 |INFO | app | Model is shotdown
+2026-09-05 10:18:18,427 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:18:21,482 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:18:21,482 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:18:23,929 |INFO | app | Model is shotdown
+2026-09-05 10:18:40,686 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:18:48,016 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:18:48,016 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:18:48,119 |INFO | app | Model is shotdown
+2026-09-05 10:18:53,368 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:18:56,519 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:18:56,520 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:19:15,886 |INFO | app | Model is shotdown
+2026-09-05 10:19:19,455 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:19:25,089 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:19:25,089 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:19:25,201 |INFO | app | Model is shotdown
+2026-09-05 10:19:30,733 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:19:34,831 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:19:34,831 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:19:34,935 |INFO | app | Model is shotdown
+2026-09-05 10:19:39,426 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:19:43,808 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:19:43,808 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:19:45,192 |INFO | app | Model is shotdown
+2026-09-05 10:19:50,194 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:19:56,980 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:19:56,981 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:19:57,086 |INFO | app | Model is shotdown
+2026-09-05 10:20:03,798 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:20:07,803 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:20:07,805 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:20:26,733 |INFO | app | Model is shotdown
+2026-09-05 10:20:35,405 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:20:43,000 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:20:43,005 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:20:43,113 |INFO | app | Model is shotdown
+2026-09-05 10:20:46,436 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:20:49,452 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:20:49,452 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:21:55,743 |INFO | app | Model is shotdown
+2026-09-05 10:21:58,864 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:22:01,561 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:22:01,569 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:22:15,043 |INFO | app | Model is shotdown
+2026-09-05 10:22:17,993 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:22:21,197 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:22:21,197 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:22:21,307 |INFO | app | Model is shotdown
+2026-09-05 10:22:24,715 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:22:27,936 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:22:27,962 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:22:28,117 |INFO | app | Model is shotdown
+2026-09-05 10:22:35,843 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:22:39,165 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:22:39,166 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:22:39,312 |INFO | app | Model is shotdown
+2026-09-05 10:22:50,334 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:22:59,547 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:22:59,555 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:22:59,676 |INFO | app | Model is shotdown
+2026-09-05 10:23:03,716 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:23:06,448 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:23:06,449 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:23:06,560 |INFO | app | Model is shotdown
+2026-09-05 10:23:11,602 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:23:15,458 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:23:15,460 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:23:17,063 |INFO | app | Model is shotdown
+2026-09-05 10:23:20,967 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:23:23,825 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:23:23,826 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:23:23,942 |INFO | app | Model is shotdown
+2026-09-05 10:23:26,717 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:23:29,762 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:23:29,763 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:23:55,973 |INFO | app | Model is shotdown
+2026-09-05 10:24:00,080 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:24:02,872 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:24:02,872 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:24:02,976 |INFO | app | Model is shotdown
+2026-09-05 10:24:06,609 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:24:10,457 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:24:10,457 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:24:10,558 |INFO | app | Model is shotdown
+2026-09-05 10:24:14,505 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:24:18,883 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:24:18,887 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:24:19,017 |INFO | app | Model is shotdown
+2026-09-05 10:24:23,393 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:24:26,791 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:24:26,794 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:24:26,911 |INFO | app | Model is shotdown
+2026-09-05 10:24:30,348 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:24:32,492 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:24:32,496 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:24:51,692 |INFO | app | Request Recived |request_id=e47ea552-e48a-4519-8002-9b1a8eb77254 |method=GET |path=/api/v1/model-info 
+2026-09-05 10:24:51,767 |INFO | app | Response Sent |request_id=e47ea552-e48a-4519-8002-9b1a8eb77254 |request_method=GET |path=/api/v1/model-info |response_time=0.07478200015611947 
+2026-09-05 10:25:01,228 |INFO | app | Model is shotdown
+2026-09-05 10:25:05,898 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:25:08,676 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:25:08,677 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:25:11,879 |INFO | app | Model is shotdown
+2026-09-05 10:25:15,239 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:25:17,983 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:25:17,983 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:25:18,089 |INFO | app | Model is shotdown
+2026-09-05 10:25:21,655 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:25:25,453 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:25:25,455 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:25:27,619 |INFO | app | Model is shotdown
+2026-09-05 10:25:31,124 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:25:35,651 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:25:35,652 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:26:01,206 |INFO | app | Model is shotdown
+2026-09-05 10:26:05,453 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:26:12,455 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:26:12,457 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:26:12,562 |INFO | app | Model is shotdown
+2026-09-05 10:26:16,027 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:26:19,071 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:26:19,071 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:26:19,173 |INFO | app | Model is shotdown
+2026-09-05 10:26:23,467 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:26:26,686 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:26:26,686 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:26:26,799 |INFO | app | Model is shotdown
+2026-09-05 10:26:30,359 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:26:33,186 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:26:33,186 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:26:33,739 |INFO | app | Model is shotdown
+2026-09-05 10:26:37,399 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:26:42,962 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:26:42,965 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:26:43,086 |INFO | app | Model is shotdown
+2026-09-05 10:26:46,760 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:26:49,736 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:26:49,738 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:26:49,851 |INFO | app | Model is shotdown
+2026-09-05 10:26:54,187 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:26:58,020 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:26:58,022 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:26:58,125 |INFO | app | Model is shotdown
+2026-09-05 10:27:02,352 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:27:05,608 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:27:05,608 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:27:11,930 |INFO | app | Model is shotdown
+2026-09-05 10:27:15,820 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:27:18,566 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:27:18,567 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:27:18,683 |INFO | app | Model is shotdown
+2026-09-05 10:27:22,216 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:27:26,618 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:27:26,620 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:27:26,732 |INFO | app | Model is shotdown
+2026-09-05 10:27:31,044 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:27:35,372 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:27:35,373 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:27:35,492 |INFO | app | Model is shotdown
+2026-09-05 10:27:39,569 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:27:42,460 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:27:42,460 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:28:17,614 |INFO | app | Model is shotdown
+2026-09-05 10:28:20,560 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:28:24,051 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:28:24,053 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:28:24,161 |INFO | app | Model is shotdown
+2026-09-05 10:28:28,226 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:28:31,298 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:28:31,303 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:29:51,659 |INFO | app | Model is shotdown
+2026-09-05 10:29:57,551 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:30:01,846 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:30:01,846 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:30:01,960 |INFO | app | Model is shotdown
+2026-09-05 10:30:07,426 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:30:10,749 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:30:10,750 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:30:13,288 |INFO | app | Model is shotdown
+2026-09-05 10:30:16,773 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:30:20,310 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:30:20,313 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:30:20,414 |INFO | app | Model is shotdown
+2026-09-05 10:30:24,395 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:30:27,398 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:30:27,400 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:34:38,679 |INFO | app | Model is shotdown
+2026-09-05 10:34:43,026 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:34:46,468 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:34:46,468 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:34:46,579 |INFO | app | Model is shotdown
+2026-09-05 10:34:50,003 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:34:59,367 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:34:59,383 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:34:59,510 |INFO | app | Model is shotdown
+2026-09-05 10:35:09,090 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:35:13,957 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:35:13,957 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:38:07,333 |INFO | app | Request Recived |request_id=c929c68c-4c59-429e-8dd3-75ac5e8cacd1 |method=GET |path=/api/v1/model-info 
+2026-09-05 10:38:07,359 |INFO | app | Response Sent |request_id=c929c68c-4c59-429e-8dd3-75ac5e8cacd1 |request_method=GET |path=/api/v1/model-info |response_time=0.0259101998526603 
+2026-09-05 10:38:56,251 |INFO | app | Model is shotdown
+2026-09-05 10:38:59,690 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:39:03,272 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:39:03,272 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:39:03,386 |INFO | app | Model is shotdown
+2026-09-05 10:39:07,845 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:39:10,724 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:39:10,725 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:39:16,300 |INFO | app | Model is shotdown
+2026-09-05 10:39:19,984 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:39:25,784 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:39:25,784 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:39:25,896 |INFO | app | Model is shotdown
+2026-09-05 10:39:30,528 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:39:33,598 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:39:33,600 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:39:33,714 |INFO | app | Model is shotdown
+2026-09-05 10:39:36,935 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:39:40,115 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:39:40,116 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:39:53,429 |INFO | app | Model is shotdown
+2026-09-05 10:39:56,967 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:40:00,139 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:40:00,139 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:40:00,244 |INFO | app | Model is shotdown
+2026-09-05 10:40:03,778 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:40:06,328 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:40:06,329 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:40:28,383 |INFO | app | Model is shotdown
+2026-09-05 10:40:32,100 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:40:35,160 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:40:35,160 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:41:43,375 |INFO | app | Model is shotdown
+2026-09-05 10:41:46,530 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:41:49,426 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:41:49,428 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:41:49,539 |INFO | app | Model is shotdown
+2026-09-05 10:41:54,447 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:41:56,901 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:41:56,901 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:41:57,008 |INFO | app | Model is shotdown
+2026-09-05 10:42:01,352 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:42:12,763 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:42:12,766 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:42:12,874 |INFO | app | Model is shotdown
+2026-09-05 10:42:21,152 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:42:25,051 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:42:25,051 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:42:25,155 |INFO | app | Model is shotdown
+2026-09-05 10:42:32,606 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:42:35,736 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:42:35,736 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:42:55,310 |INFO | app | Model is shotdown
+2026-09-05 10:42:58,728 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:43:01,786 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:43:01,786 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:43:01,903 |INFO | app | Model is shotdown
+2026-09-05 10:43:05,749 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:43:08,061 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:43:08,063 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:45:30,726 |INFO | app | Model is shotdown
+2026-09-05 10:45:38,141 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:45:43,540 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:45:43,540 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:45:58,394 |INFO | app | Model is shotdown
+2026-09-05 10:46:02,818 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:46:06,242 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:46:06,243 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:46:57,120 |INFO | app | Model is shotdown
+2026-09-05 10:47:00,447 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:47:04,204 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:47:04,204 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:47:04,314 |INFO | app | Model is shotdown
+2026-09-05 10:47:08,379 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:47:11,632 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:47:11,634 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:47:11,743 |INFO | app | Model is shotdown
+2026-09-05 10:47:17,205 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:47:20,318 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:47:20,318 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:47:44,482 |INFO | app | Model is shotdown
+2026-09-05 10:47:47,681 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:47:50,658 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:47:50,658 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:48:20,423 |INFO | app | Model is shotdown
+2026-09-05 10:48:25,025 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:48:28,069 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:48:28,069 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:48:28,179 |INFO | app | Model is shotdown
+2026-09-05 10:48:31,597 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:48:34,855 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:48:34,857 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:48:55,854 |INFO | app | Model is shotdown
+2026-09-05 10:48:59,568 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:49:03,572 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:49:03,572 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:49:03,686 |INFO | app | Model is shotdown
+2026-09-05 10:49:07,795 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:49:10,998 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:49:10,998 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:49:11,108 |INFO | app | Model is shotdown
+2026-09-05 10:49:14,687 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:49:17,426 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:49:17,434 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:51:43,434 |INFO | app | Model is shotdown
+2026-09-05 10:51:55,322 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:52:07,313 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:52:07,335 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:52:07,446 |INFO | app | Model is shotdown
+2026-09-05 10:52:14,475 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:52:23,505 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:52:23,505 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:52:23,610 |INFO | app | Model is shotdown
+2026-09-05 10:52:29,223 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:52:39,873 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:52:39,875 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:53:19,772 |INFO | app | Model is shotdown
+2026-09-05 10:53:27,381 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:53:34,193 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:53:34,196 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:53:34,304 |INFO | app | Model is shotdown
+2026-09-05 10:53:37,688 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:53:40,343 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:53:40,344 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:53:40,482 |INFO | app | Request Recived |request_id=87a2ebee-a0fb-4aa5-9f5b-627035c56c30 |method=GET |path=/api/v1/model-info 
+2026-09-05 10:53:40,589 |INFO | app | Response Sent |request_id=87a2ebee-a0fb-4aa5-9f5b-627035c56c30 |request_method=GET |path=/api/v1/model-info |response_time=0.10610469989478588 
+2026-09-05 10:54:06,125 |INFO | app | Model is shotdown
+2026-09-05 10:54:11,414 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:54:14,040 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:54:14,041 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:55:52,237 |INFO | app | Model is shotdown
+2026-09-05 10:56:02,188 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:56:02,188 |WARNING | app | Model.pkl is not loaded
+2026-09-05 10:56:02,188 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:57:27,083 |INFO | app | Model is shotdown
+2026-09-05 10:57:33,062 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:57:35,879 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:57:35,881 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:59:04,192 |INFO | app | Model is shotdown
+2026-09-05 10:59:06,916 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:59:10,841 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:59:10,843 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:59:14,277 |INFO | app | Model is shotdown
+2026-09-05 10:59:17,277 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:59:20,539 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:59:20,540 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:59:20,646 |INFO | app | Model is shotdown
+2026-09-05 10:59:26,375 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:59:30,719 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:59:30,719 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:59:40,262 |INFO | app | Model is shotdown
+2026-09-05 10:59:43,146 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:59:45,977 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:59:45,977 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 10:59:46,090 |INFO | app | Model is shotdown
+2026-09-05 10:59:49,307 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 10:59:51,672 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 10:59:51,673 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:00:09,826 |INFO | app | Model is shotdown
+2026-09-05 11:00:17,505 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:00:20,168 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:00:20,168 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:01:16,610 |INFO | app | Model is shotdown
+2026-09-05 11:01:20,217 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:01:20,218 |WARNING | app | Model.pkl is not loaded
+2026-09-05 11:01:20,219 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:01:55,672 |INFO | app | Model is shotdown
+2026-09-05 11:02:01,372 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:02:03,687 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:02:03,687 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:03:00,556 |INFO | app | Model is shotdown
+2026-09-05 11:03:10,355 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:03:16,291 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:03:16,294 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:03:38,520 |INFO | app | Model is shotdown
+2026-09-05 11:03:41,692 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:03:44,174 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:03:44,174 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:29:00,306 |INFO | app | Model is shotdown
+2026-09-05 11:44:33,912 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:44:42,653 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:44:42,688 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:44:53,370 |INFO | app | Model is shotdown
+2026-09-05 11:44:59,122 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:45:01,528 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:45:01,528 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:45:14,387 |INFO | app | Request Recived |request_id=81b7be7d-760e-46e1-ae80-d85d99c9eefe |method=GET |path=/ 
+2026-09-05 11:45:14,405 |INFO | app | Response Sent |request_id=81b7be7d-760e-46e1-ae80-d85d99c9eefe |request_method=GET |path=/ |response_time=0.011954500107094646 
+2026-09-05 11:45:19,507 |INFO | app | Request Recived |request_id=b110637c-0014-4fe4-942c-20ac1b892139 |method=GET |path=/dcs 
+2026-09-05 11:45:19,511 |INFO | app | Response Sent |request_id=b110637c-0014-4fe4-942c-20ac1b892139 |request_method=GET |path=/dcs |response_time=0.004147399915382266 
+2026-09-05 11:45:26,463 |INFO | app | Request Recived |request_id=e532610a-d7a3-4e68-8197-0e34039d5f69 |method=GET |path=/docs 
+2026-09-05 11:45:26,466 |INFO | app | Response Sent |request_id=e532610a-d7a3-4e68-8197-0e34039d5f69 |request_method=GET |path=/docs |response_time=0.003102799877524376 
+2026-09-05 11:45:26,818 |INFO | app | Request Recived |request_id=78199a1f-734d-4d7e-8c74-22cb697db2da |method=GET |path=/openapi.json 
+2026-09-05 11:45:27,032 |INFO | app | Response Sent |request_id=78199a1f-734d-4d7e-8c74-22cb697db2da |request_method=GET |path=/openapi.json |response_time=0.21362309996038675 
+2026-09-05 11:46:31,981 |INFO | app | Model is shotdown
+2026-09-05 11:47:07,243 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:47:17,041 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:47:17,067 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:47:17,167 |INFO | app | Model is shotdown
+2026-09-05 11:47:23,485 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:47:26,191 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:47:26,191 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:47:26,286 |INFO | app | Request Recived |request_id=0670b48a-d3be-4ae3-bfd1-d99190152bc0 |method=GET |path=/docs 
+2026-09-05 11:47:26,286 |INFO | app | Response Sent |request_id=0670b48a-d3be-4ae3-bfd1-d99190152bc0 |request_method=GET |path=/docs |response_time=0.0017411001026630402 
+2026-09-05 11:47:26,803 |INFO | app | Request Recived |request_id=4ee5e055-09df-485a-b9fd-16b5b7ae8e7f |method=GET |path=/openapi.json 
+2026-09-05 11:47:26,872 |INFO | app | Response Sent |request_id=4ee5e055-09df-485a-b9fd-16b5b7ae8e7f |request_method=GET |path=/openapi.json |response_time=0.06799110001884401 
+2026-09-05 11:47:52,052 |INFO | app | Request Recived |request_id=3fb08576-6a8a-4d6e-ab23-ae14b5722964 |method=POST |path=/api/v2/predict 
+2026-09-05 11:48:40,329 |INFO | app | Model is shotdown
+2026-09-05 11:48:48,220 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:48:54,006 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:48:54,006 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:49:01,854 |INFO | app | Request Recived |request_id=e5467e68-39f2-4460-bd92-04fcca362103 |method=POST |path=/api/v2/predict 
+2026-09-05 11:49:25,947 |INFO | app | Model is shotdown
+2026-09-05 11:49:30,253 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:49:33,693 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:49:33,693 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:49:38,228 |INFO | app | Request Recived |request_id=e25dd215-a5a1-43e8-9fac-4c5027d93f84 |method=POST |path=/api/v2/predict 
+2026-09-05 11:49:38,489 |INFO | app | Response Sent |request_id=e25dd215-a5a1-43e8-9fac-4c5027d93f84 |request_method=POST |path=/api/v2/predict |response_time=0.2609618999995291 
+2026-09-05 11:50:16,463 |INFO | app | Model is shotdown
+2026-09-05 11:50:38,466 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:50:48,163 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:50:48,181 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:50:48,290 |INFO | app | Model is shotdown
+2026-09-05 11:50:54,251 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:50:57,514 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:50:57,515 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:50:57,646 |INFO | app | Model is shotdown
+2026-09-05 11:51:01,631 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:51:04,940 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:51:05,044 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:56:31,665 |INFO | app | Model is shotdown
+2026-09-05 11:56:50,362 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:57:05,790 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:57:05,809 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:57:05,964 |INFO | app | Model is shotdown
+2026-09-05 11:57:18,653 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:57:28,804 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:57:28,818 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:57:28,974 |INFO | app | Model is shotdown
+2026-09-05 11:57:39,141 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:57:49,468 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:57:49,479 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:57:49,611 |INFO | app | Model is shotdown
+2026-09-05 11:58:04,313 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:58:12,569 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:58:12,577 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:58:12,716 |INFO | app | Model is shotdown
+2026-09-05 11:58:18,312 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:58:21,617 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:58:21,619 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:58:21,736 |INFO | app | Model is shotdown
+2026-09-05 11:58:26,678 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:58:30,068 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:58:30,068 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:58:30,174 |INFO | app | Model is shotdown
+2026-09-05 11:58:33,551 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:58:37,569 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:58:37,570 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:58:38,087 |INFO | app | Model is shotdown
+2026-09-05 11:58:42,220 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:58:44,529 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:58:44,529 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:58:54,071 |INFO | app | Model is shotdown
+2026-09-05 11:59:05,707 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:59:11,612 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:59:11,613 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:59:11,718 |INFO | app | Model is shotdown
+2026-09-05 11:59:16,039 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:59:20,886 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:59:20,887 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:59:21,000 |INFO | app | Model is shotdown
+2026-09-05 11:59:26,795 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:59:30,782 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:59:30,782 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:59:34,930 |INFO | app | Model is shotdown
+2026-09-05 11:59:38,582 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:59:44,832 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:59:44,834 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:59:44,939 |INFO | app | Model is shotdown
+2026-09-05 11:59:48,511 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:59:51,293 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:59:51,295 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 11:59:51,509 |INFO | app | Model is shotdown
+2026-09-05 11:59:54,765 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 11:59:57,941 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 11:59:57,942 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 12:00:02,561 |INFO | app | Model is shotdown
+2026-09-05 12:00:05,981 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 12:00:10,598 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 12:00:10,599 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 12:00:10,711 |INFO | app | Model is shotdown
+2026-09-05 12:00:15,333 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 12:00:19,176 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 12:00:19,178 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 12:00:19,293 |INFO | app | Model is shotdown
+2026-09-05 12:00:23,620 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 12:00:26,685 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 12:00:26,686 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 12:00:26,792 |INFO | app | Model is shotdown
+2026-09-05 12:00:30,684 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 12:00:33,841 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 12:00:33,841 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 12:00:33,972 |INFO | app | Model is shotdown
+2026-09-05 12:00:40,868 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 12:00:44,832 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 12:00:44,832 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 12:00:44,942 |INFO | app | Model is shotdown
+2026-09-05 12:00:50,541 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 12:00:54,977 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 12:00:54,985 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 12:03:11,564 |INFO | app | Model is shotdown
+2026-09-05 12:03:18,940 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 12:03:24,094 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 12:03:24,094 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 12:05:47,384 |INFO | app | Model is shotdown
+2026-09-05 12:05:51,464 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 12:05:54,615 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 12:05:54,615 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 13:16:58,543 |INFO | app | Model is shotdown
+2026-09-05 13:17:20,456 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 13:17:46,011 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 13:17:46,240 |INFO | app | accuracy.pkl is loaded Successfully

@@ -18,7 +18,7 @@ class PredictionInput(BaseModel):
 
 
 
-class PredictionResponse(BaseModel):
+class PredictionResponseV1(BaseModel):
     request_id:str
     species:str
     accuracy:float
@@ -32,7 +32,13 @@ class PredictionBatchInput(BaseModel):
     inputs:List[PredictionInput]=Field(min_length=1,max_length=100)
 
 class PredictionBatchOutput(BaseModel):
-    predictions:list[PredictionResponse]
+    predictions:list[PredictionResponseV1]
+
+class PredictionResponseV2(BaseModel):
+    request_id:str
+    species:str
+    accuracy:float
+    model_type:str
     
     
       
