@@ -37,6 +37,7 @@ def test_predict():
         assert 'model_type' not in data_v1
         assert 'model_type' in data_v2
         assert 'request_id' in data_v1 and data_v2
+        
 def test_predict_batch():
     with TestClient(app) as client:
         response=client.post("api/v1/batch-prediction",json={

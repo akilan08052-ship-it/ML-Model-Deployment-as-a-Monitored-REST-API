@@ -2840,3 +2840,4 @@ AttributeError: 'function' object has no attribute 'state'
 2026-09-05 13:17:20,456 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
 2026-09-05 13:17:46,011 |INFO | app | Model.pkl is loaded Successfully
 2026-09-05 13:17:46,240 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 14:01:23,946 |INFO | app | Model is shotdown
