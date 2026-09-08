@@ -33,8 +33,7 @@ async def lifespan(app:FastAPI):
            
         else:
             app.state.model=None
-            logger.warning("Model.pkl is not loaded")
-            
+            logger.exception("Model.pkl is not loaded")
             app.state.error=FileNotFoundError("File not in the location:",FILE_LOC_MODEL)
         
         
@@ -46,10 +45,11 @@ async def lifespan(app:FastAPI):
             
         else:
             app.state.accuracy=None
-            logger.warning("accuracy.pkl not loaded")
+            logger.exception("accuracy.pkl not loaded")
             app.state.error=FileNotFoundError("file not fould error in this location:",FIEL_LOC_ACCURACY)
     except Exception as e:
-        raise FileNotFoundError(e)
+        logger.exception("Unexpected error during startup resource loading")
+        raise
     yield
     logger.info("Model is shotdown")
     del model 

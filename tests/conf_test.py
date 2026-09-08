@@ -71,7 +71,8 @@ def test_health():
         response=client.get("api/v1/health")
         response.status_code=200
         data=response.json()
-        assert data["status"]=="Prediction  service is Avaialble" or "Prediction  service is not Avaialble"
+        assert data["status"]=="Prediction service is Available" 
+        assert 'request_id' in data
 
 def test_model_info():
      with TestClient(app) as client:

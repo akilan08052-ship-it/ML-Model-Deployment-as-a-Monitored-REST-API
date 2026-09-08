@@ -16,23 +16,10 @@ class PredictionInput(BaseModel):
     petallength:float=Field(ge=0,alias="petallength")
     petalwidth:float=Field(ge=0,alias="petalwidth")
 
-
-
 class PredictionResponseV1(BaseModel):
     request_id:str
     species:str
     accuracy:float
-
-class MoelInfo(BaseModel):
-    model_type:str
-    trained_date:str
-    
-
-class PredictionBatchInput(BaseModel):
-    inputs:List[PredictionInput]=Field(min_length=1,max_length=100)
-
-class PredictionBatchOutput(BaseModel):
-    predictions:list[PredictionResponseV1]
 
 class PredictionResponseV2(BaseModel):
     request_id:str
@@ -40,5 +27,13 @@ class PredictionResponseV2(BaseModel):
     accuracy:float
     model_type:str
     
-    
+class PredictionBatchInput(BaseModel):
+    inputs:List[PredictionInput]=Field(min_length=1,max_length=100)
+
+class PredictionBatchOutput(BaseModel):
+    predictions:list[PredictionResponseV1]
+ 
+class MoelInfo(BaseModel):
+    model_type:str
+    trained_date:str
       

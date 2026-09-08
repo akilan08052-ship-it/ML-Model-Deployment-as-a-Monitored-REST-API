@@ -28,21 +28,37 @@ def root():
 @router.post("/predict")
 def predict(data:PredictionInput,request:Request):
     request_id=request.state.request_id
+    model=request.app.state.model
+    accuracy=request.app.state.accuracy
+    if model is None:
+        logger.exception("Prediction attempted but model not loaded | request_id=%s",
+            request_id,)
+        return JSONResponse(
+            content={"request_id": str(request_id), "detail": "Model is not available"},
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+        )
+
+    
   
     try:
         input_data=convert_df(data)
-        model=request.app.state.model
-        result=model.predict(input_data)
-        accuracy=request.app.state.accuracy
     except Exception as e:
         logger.exception(
-            "Prediction error |"
-            "request_id=%s"
-            "error=%s",
+            "Invalid input data | request_id=%s",
             request_id,
-            str(e)
         )
-        return JSONResponse(content=e,status_code=status.HTTP_404_NOT_FOUND)
+        return JSONResponse(
+            content={"request_id": str(request_id), "detail": f"Invalid input: {e}"},
+            status_code=status.HTTP_400_BAD_REQUEST,
+        )
+    try:
+        result=model.predict(input_data)
+    except Exception as e:
+        logger.exception("Model failied | request_id=%s" ,request_id)
+        return JSONResponse(content={"request_id":str(request_id),
+                                     "details":str(e),},status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    
+
     
     return PredictionResponseV1(
         request_id=str(request_id),
@@ -52,16 +68,17 @@ def predict(data:PredictionInput,request:Request):
 
 @router.get("/health")
 def check_health(request:Request,):
-    
-    model_loaded=getattr(request.app.state,"model")
-    accuracy_loaded=getattr(request.app.state,"accuracy")
-    if model_loaded and accuracy_loaded:
-        model_status="Prediction  service is Avaialble"
-        return JSONResponse(content={"status":model_status},status_code=status.HTTP_200_OK)
-    else:
-        model_status="Prediction service is not  Avaialble"
-        logger.warning("PKL file is not active |" "method=%s|" "path=%s|",request.method,request.url.path)
-        return JSONResponse(content={"status":model_status},status_code=status.HTTP_503_SERVICE_UNAVAILABLE)
+    request_id=str(request.state.request_id)
+    model=request.app.state.model
+    accuracy_score=request.app.state.accuracy
+    if not(model or accuracy_score):
+        logger.exception("error during accessing the model varialbles orload model")
+        return JSONResponse(content={"request_id":request_id,
+                                     "status":" Prediction Service Is Not Available",
+                                     "details":"error during accessing the model varialbles"})
+    return JSONResponse(content={"request_id":request_id,
+                                 "status":"Prediction service is Available"})
+
 model_data={}
 @router.get("/model-info")
 def model_info(request:Request):

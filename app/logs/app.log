@@ -2841,3 +2841,172 @@ AttributeError: 'function' object has no attribute 'state'
 2026-09-05 13:17:46,011 |INFO | app | Model.pkl is loaded Successfully
 2026-09-05 13:17:46,240 |INFO | app | accuracy.pkl is loaded Successfully
 2026-09-05 14:01:23,946 |INFO | app | Model is shotdown
+2026-09-05 14:01:57,411 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 14:02:07,036 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 14:02:07,049 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 21:09:37,185 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-05 21:09:46,626 |INFO | app | Model.pkl is loaded Successfully
+2026-09-05 21:09:46,626 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-05 21:10:30,600 |INFO | app | Request Recived |request_id=d9a10373-de14-4598-9d9c-5fcb0243d07d |method=POST |path=/api/v1/predict 
+2026-09-05 21:10:31,006 |INFO | app | Response Sent |request_id=d9a10373-de14-4598-9d9c-5fcb0243d07d |request_method=POST |path=/api/v1/predict |response_time=0.4061278000008315 
+2026-09-08 11:13:13,556 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:13:37,741 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:13:37,759 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:13:42,248 |INFO | app | Request Recived |request_id=b4cc9b63-0020-41cc-a8e4-2cc83f7dbf21 |method=POST |path=/api/v1/predict 
+2026-09-08 11:13:42,703 |INFO | app | Response Sent |request_id=b4cc9b63-0020-41cc-a8e4-2cc83f7dbf21 |request_method=POST |path=/api/v1/predict |response_time=0.46056259982287884 
+2026-09-08 11:15:41,547 |INFO | app | Model is shotdown
+2026-09-08 11:17:58,767 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:17:58,864 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:17:58,864 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:18:01,657 |INFO | app | Request Recived |request_id=c4f2d165-f1e8-4ef8-9a10-f49476d38f5d |method=GET |path=/api/v1/health 
+2026-09-08 11:18:01,668 |INFO | app | Prediction service is available
+2026-09-08 11:18:01,689 |INFO | app | Response Sent |request_id=c4f2d165-f1e8-4ef8-9a10-f49476d38f5d |request_method=GET |path=/api/v1/health |response_time=0.031876099994406104 
+2026-09-08 11:18:05,693 |INFO | app | Request Recived |request_id=26480e0f-e376-4050-a71d-5d446db23f55 |method=GET |path=/api/v1/health 
+2026-09-08 11:18:05,695 |INFO | app | Prediction service is available
+2026-09-08 11:18:05,699 |INFO | app | Response Sent |request_id=26480e0f-e376-4050-a71d-5d446db23f55 |request_method=GET |path=/api/v1/health |response_time=0.0062338002026081085 
+2026-09-08 11:18:26,375 |INFO | app | Model is shotdown
+2026-09-08 11:18:29,752 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:18:29,752 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:18:29,754 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:18:40,290 |INFO | app | Request Recived |request_id=e738893e-4b12-4079-8095-83b20240443d |method=GET |path=/api/v1/health 
+2026-09-08 11:18:40,307 |WARNING | app | PKL file is not active |method=GET|path=/api/v1/health|
+2026-09-08 11:18:40,309 |INFO | app | Response Sent |request_id=e738893e-4b12-4079-8095-83b20240443d |request_method=GET |path=/api/v1/health |response_time=0.013136900030076504 
+2026-09-08 11:19:01,719 |INFO | app | Model is shotdown
+2026-09-08 11:19:06,890 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:19:06,896 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:19:06,899 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:19:07,013 |INFO | app | Model is shotdown
+2026-09-08 11:19:10,733 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:19:10,733 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:19:10,733 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:19:10,845 |INFO | app | Model is shotdown
+2026-09-08 11:19:13,379 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:19:13,379 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:19:13,379 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:19:16,888 |INFO | app | Request Recived |request_id=95f713c5-ae3d-4939-84da-80173d0f5bcb |method=GET |path=/api/v1/health 
+2026-09-08 11:19:16,909 |WARNING | app | PKL file is not active |method=GET|path=/api/v1/health|
+2026-09-08 11:19:16,911 |INFO | app | Response Sent |request_id=95f713c5-ae3d-4939-84da-80173d0f5bcb |request_method=GET |path=/api/v1/health |response_time=0.02268510009162128 
+2026-09-08 11:19:30,835 |INFO | app | Model is shotdown
+2026-09-08 11:19:43,309 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:19:43,313 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:19:43,315 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:19:51,651 |INFO | app | Request Recived |request_id=95ba2190-fbe4-4fe7-a538-c74c1d11ccef |method=GET |path=/api/v1/health 
+2026-09-08 11:19:51,663 |INFO | app | Prediction service is available
+2026-09-08 11:19:51,751 |INFO | app | Response Sent |request_id=95ba2190-fbe4-4fe7-a538-c74c1d11ccef |request_method=GET |path=/api/v1/health |response_time=0.09786460013128817 
+2026-09-08 11:19:59,446 |INFO | app | Request Recived |request_id=b7ff5038-c66e-4489-9b21-5a0359de0a60 |method=POST |path=/api/v1/predict 
+2026-09-08 11:19:59,493 |ERROR | app | Prediction attempted but model not loaded | request_id=b7ff5038-c66e-4489-9b21-5a0359de0a60
+NoneType: None
+2026-09-08 11:19:59,497 |INFO | app | Response Sent |request_id=b7ff5038-c66e-4489-9b21-5a0359de0a60 |request_method=POST |path=/api/v1/predict |response_time=0.04994449997320771 
+2026-09-08 11:20:17,688 |INFO | app | Model is shotdown
+2026-09-08 11:20:23,007 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:20:23,007 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:20:23,007 |ERROR | app | accuracy.pkl not loaded
+NoneType: None
+2026-09-08 11:20:23,116 |INFO | app | Model is shotdown
+2026-09-08 11:20:26,610 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:20:26,610 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:20:26,610 |ERROR | app | accuracy.pkl not loaded
+NoneType: None
+2026-09-08 11:21:04,536 |INFO | app | Request Recived |request_id=9a248ef7-5cd2-42fe-88e7-5376bfa03912 |method=GET |path=/api/v1/health 
+2026-09-08 11:21:04,550 |INFO | app | Prediction service is available
+2026-09-08 11:21:04,554 |INFO | app | Response Sent |request_id=9a248ef7-5cd2-42fe-88e7-5376bfa03912 |request_method=GET |path=/api/v1/health |response_time=0.017000199994072318 
+2026-09-08 11:21:37,409 |INFO | app | Model is shotdown
+2026-09-08 11:27:27,368 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:27:27,449 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:27:27,449 |ERROR | app | accuracy.pkl not loaded
+NoneType: None
+2026-09-08 11:27:31,016 |INFO | app | Request Recived |request_id=f9f37742-a205-4708-a678-d3510f91a6f5 |method=GET |path=/api/v1/health 
+2026-09-08 11:27:31,031 |INFO | app | Response Sent |request_id=f9f37742-a205-4708-a678-d3510f91a6f5 |request_method=GET |path=/api/v1/health |response_time=0.013455899897962809 
+2026-09-08 11:27:49,227 |INFO | app | Model is shotdown
+2026-09-08 11:29:44,520 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:29:44,522 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:29:44,522 |ERROR | app | accuracy.pkl not loaded
+NoneType: None
+2026-09-08 11:29:53,546 |INFO | app | Model is shotdown
+2026-09-08 11:29:58,136 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:29:58,136 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:29:58,136 |ERROR | app | accuracy.pkl not loaded
+NoneType: None
+2026-09-08 11:29:58,246 |INFO | app | Model is shotdown
+2026-09-08 11:33:01,838 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:33:01,843 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 11:33:01,843 |ERROR | app | accuracy.pkl not loaded
+NoneType: None
+2026-09-08 11:33:07,334 |INFO | app | Request Recived |request_id=562b2435-aea3-452b-8a9a-2f6420662b68 |method=GET |path=/api/v1/health 
+2026-09-08 11:33:07,364 |ERROR | app | error during accessing the model varialbles orload model
+NoneType: None
+2026-09-08 11:33:07,383 |INFO | app | Response Sent |request_id=562b2435-aea3-452b-8a9a-2f6420662b68 |request_method=GET |path=/api/v1/health |response_time=0.04898309987038374 
+2026-09-08 11:33:28,188 |INFO | app | Model is shotdown
+2026-09-08 11:33:33,444 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:33:42,130 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:33:42,130 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:33:45,153 |INFO | app | Request Recived |request_id=3a596627-f9ed-4413-ad9a-0211ba1a3bed |method=GET |path=/api/v1/health 
+2026-09-08 11:33:45,263 |INFO | app | Response Sent |request_id=3a596627-f9ed-4413-ad9a-0211ba1a3bed |request_method=GET |path=/api/v1/health |response_time=0.1106670000590384 
+2026-09-08 11:37:15,689 |INFO | app | Model is shotdown
+2026-09-08 11:37:23,128 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:37:27,616 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:37:27,617 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:37:42,297 |INFO | app | Model is shotdown
+2026-09-08 11:37:46,361 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:37:50,947 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:37:50,947 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:37:51,052 |INFO | app | Model is shotdown
+2026-09-08 11:37:56,333 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:38:00,039 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:38:00,045 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:38:31,132 |INFO | app | Model is shotdown
+2026-09-08 11:38:36,679 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:38:40,497 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:38:40,499 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:38:40,602 |INFO | app | Model is shotdown
+2026-09-08 11:38:45,717 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:38:49,555 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:38:49,564 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:39:39,119 |INFO | app | Model is shotdown
+2026-09-08 11:39:45,180 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:39:50,470 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:39:50,472 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:40:08,338 |INFO | app | Model is shotdown
+2026-09-08 11:40:13,088 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:40:18,481 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:40:18,481 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:40:57,809 |INFO | app | Model is shotdown
+2026-09-08 11:41:03,123 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:41:07,254 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:41:07,255 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:41:07,358 |INFO | app | Model is shotdown
+2026-09-08 11:41:11,331 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:41:17,064 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:41:17,064 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:41:22,535 |INFO | app | Model is shotdown
+2026-09-08 11:41:27,231 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:41:30,765 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:41:30,765 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:41:57,410 |INFO | app | Model is shotdown
+2026-09-08 11:42:03,162 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:42:07,878 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:42:07,884 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:42:07,990 |INFO | app | Model is shotdown
+2026-09-08 11:42:13,764 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:42:21,771 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:42:21,771 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:42:21,874 |INFO | app | Model is shotdown
+2026-09-08 11:42:26,492 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:42:32,386 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:42:32,467 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:43:26,270 |INFO | app | Model is shotdown
+2026-09-08 11:43:31,221 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:43:36,051 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:43:36,051 |INFO | app | accuracy.pkl is loaded Successfully
