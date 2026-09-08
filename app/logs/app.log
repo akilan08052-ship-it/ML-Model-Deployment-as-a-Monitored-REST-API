@@ -3010,3 +3010,428 @@ NoneType: None
 2026-09-08 11:43:31,221 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
 2026-09-08 11:43:36,051 |INFO | app | Model.pkl is loaded Successfully
 2026-09-08 11:43:36,051 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:45:13,568 |INFO | app | Model is shotdown
+2026-09-08 11:45:17,731 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:45:21,116 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:45:21,116 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:45:43,618 |INFO | app | Request Recived |request_id=4d9c9629-ef33-4ebc-b2e5-ade1640e0611 |method=GET |path=/api/v1/model-info 
+2026-09-08 11:46:05,230 |INFO | app | Model is shotdown
+2026-09-08 11:46:09,470 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:46:16,610 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:46:16,610 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:46:16,727 |INFO | app | Model is shotdown
+2026-09-08 11:46:43,306 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:46:51,785 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:46:51,798 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:46:51,934 |INFO | app | Model is shotdown
+2026-09-08 11:47:00,485 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:47:04,724 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:47:04,729 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:47:04,845 |INFO | app | Model is shotdown
+2026-09-08 11:47:16,213 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:47:19,863 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:47:19,867 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:47:19,983 |INFO | app | Model is shotdown
+2026-09-08 11:47:26,198 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:47:36,651 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:47:36,655 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:47:36,767 |INFO | app | Model is shotdown
+2026-09-08 11:47:46,353 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:47:53,492 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:47:53,492 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:47:53,607 |INFO | app | Model is shotdown
+2026-09-08 11:47:59,593 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:48:05,711 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:48:05,723 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:48:05,911 |INFO | app | Model is shotdown
+2026-09-08 11:48:16,313 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:48:21,854 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:48:21,877 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:48:22,091 |INFO | app | Model is shotdown
+2026-09-08 11:48:27,167 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:48:32,089 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:48:32,090 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:48:32,193 |INFO | app | Model is shotdown
+2026-09-08 11:48:36,853 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:48:40,655 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:48:40,655 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:48:46,626 |INFO | app | Request Recived |request_id=be08e597-1aaa-43ac-9e12-fde210ea4ae7 |method=GET |path=/api/v1/model-info 
+2026-09-08 11:48:46,641 |INFO | app | Response Sent |request_id=be08e597-1aaa-43ac-9e12-fde210ea4ae7 |request_method=GET |path=/api/v1/model-info |response_time=0.013667599996551871 
+2026-09-08 11:49:21,693 |INFO | app | Model is shotdown
+2026-09-08 11:49:26,712 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:49:30,081 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:49:30,086 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:49:39,323 |INFO | app | Model is shotdown
+2026-09-08 11:49:52,914 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:49:57,072 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:49:57,072 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:49:57,180 |INFO | app | Model is shotdown
+2026-09-08 11:50:03,514 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:50:08,119 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:50:08,119 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:50:08,232 |INFO | app | Model is shotdown
+2026-09-08 11:50:13,003 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:50:16,266 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:50:16,270 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:50:16,379 |INFO | app | Model is shotdown
+2026-09-08 11:50:22,010 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:50:28,553 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:50:28,556 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:50:28,664 |INFO | app | Model is shotdown
+2026-09-08 11:50:35,629 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:50:39,852 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:50:39,852 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:50:39,958 |INFO | app | Model is shotdown
+2026-09-08 11:50:44,508 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:50:48,911 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:50:48,911 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:50:52,102 |INFO | app | Request Recived |request_id=7e4b6e80-dad2-46e8-ad2d-d3a3cd529114 |method=GET |path=/api/v1/model-info 
+2026-09-08 11:50:52,120 |INFO | app | Response Sent |request_id=7e4b6e80-dad2-46e8-ad2d-d3a3cd529114 |request_method=GET |path=/api/v1/model-info |response_time=0.019525500014424324 
+2026-09-08 11:51:25,042 |INFO | app | Model is shotdown
+2026-09-08 11:51:31,567 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:51:35,137 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:51:35,139 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:51:35,259 |INFO | app | Model is shotdown
+2026-09-08 11:51:38,263 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:51:41,292 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:51:41,294 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:51:43,766 |INFO | app | Request Recived |request_id=967e2087-64c1-4c3f-b622-9219f0e1d4a4 |method=GET |path=/api/v1/model-info 
+2026-09-08 11:52:17,383 |INFO | app | Model is shotdown
+2026-09-08 11:52:21,843 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:52:25,400 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:52:25,400 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:52:30,639 |INFO | app | Request Recived |request_id=6e8724cb-2be9-4914-adb2-7a2857ddbb46 |method=GET |path=/api/v1/model-info 
+2026-09-08 11:52:49,775 |INFO | app | Model is shotdown
+2026-09-08 11:52:54,943 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:52:58,066 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:52:58,066 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:53:00,283 |INFO | app | Request Recived |request_id=b3db7516-93f3-403a-8dd4-d3f6f4536980 |method=GET |path=/api/v1/model-info 
+2026-09-08 11:53:00,335 |INFO | app | Response Sent |request_id=b3db7516-93f3-403a-8dd4-d3f6f4536980 |request_method=GET |path=/api/v1/model-info |response_time=0.051973599940538406 
+2026-09-08 11:53:25,234 |INFO | app | Model is shotdown
+2026-09-08 11:53:43,180 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:53:48,328 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:53:48,328 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:53:48,433 |INFO | app | Model is shotdown
+2026-09-08 11:54:22,482 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:54:26,493 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:54:26,493 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:54:26,596 |INFO | app | Model is shotdown
+2026-09-08 11:54:30,237 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 11:54:34,462 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 11:54:34,464 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 11:54:44,004 |INFO | app | Model is shotdown
+2026-09-08 12:03:28,336 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:03:36,278 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:03:36,294 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:04:09,302 |INFO | app | Model is shotdown
+2026-09-08 12:04:13,782 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:04:17,351 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:04:17,351 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:04:21,233 |INFO | app | Request Recived |request_id=878a1d12-9a42-4442-bf58-f0c447bd632d |method=GET |path=/api/v1/model-info 
+2026-09-08 12:04:21,480 |ERROR | app | error at 
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 683, in __getattr__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'rquest_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 88, in model_info
+    request_id=str(request.state.rquest_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 686, in __getattr__
+    raise AttributeError(message.format(self.__class__.__name__, key))
+AttributeError: 'State' object has no attribute 'rquest_id'
+2026-09-08 12:05:09,686 |INFO | app | Request Recived |request_id=a625ca2d-3633-43b3-aea8-f0e466d6998e |method=GET |path=/api/v1/model-info 
+2026-09-08 12:05:09,692 |ERROR | app | error at 
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 683, in __getattr__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'rquest_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 88, in model_info
+    request_id=str(request.state.rquest_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 686, in __getattr__
+    raise AttributeError(message.format(self.__class__.__name__, key))
+AttributeError: 'State' object has no attribute 'rquest_id'
+2026-09-08 12:05:39,234 |INFO | app | Model is shotdown
+2026-09-08 12:05:43,064 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:05:45,994 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:05:46,012 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:05:58,380 |INFO | app | Model is shotdown
+2026-09-08 12:06:04,972 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:06:10,758 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:06:10,758 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:06:10,881 |INFO | app | Model is shotdown
+2026-09-08 12:06:59,847 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:07:05,509 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:07:05,511 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:07:08,490 |INFO | app | Request Recived |request_id=33471e55-35f3-4eb2-a07c-944ce646702e |method=GET |path=/api/v1/model-info 
+2026-09-08 12:07:08,504 |ERROR | app | error at 
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 683, in __getattr__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'rquest_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 88, in model_info
+    request_id=str(request.state.rquest_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 686, in __getattr__
+    raise AttributeError(message.format(self.__class__.__name__, key))
+AttributeError: 'State' object has no attribute 'rquest_id'
+2026-09-08 12:07:51,449 |INFO | app | Model is shotdown
+2026-09-08 12:08:01,615 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:08:06,703 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:08:06,710 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:08:07,455 |INFO | app | Model is shotdown
+2026-09-08 12:08:13,023 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:08:16,460 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:08:16,460 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:09:36,552 |INFO | app | Model is shotdown
+2026-09-08 12:09:41,538 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:09:47,291 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:09:47,300 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:10:32,270 |INFO | app | Model is shotdown
+2026-09-08 12:10:38,283 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:10:41,789 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:10:41,793 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:10:41,902 |INFO | app | Model is shotdown
+2026-09-08 12:10:46,581 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:10:52,682 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:10:52,684 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:10:52,716 |INFO | app | Request Recived |request_id=041fb7f3-7d36-4b3d-92fc-5c983aa85849 |method=GET |path=/api/v1/model-info 
+2026-09-08 12:10:52,793 |INFO | app | Response Sent |request_id=041fb7f3-7d36-4b3d-92fc-5c983aa85849 |request_method=GET |path=/api/v1/model-info |response_time=0.07733800006099045 
+2026-09-08 12:12:07,491 |INFO | app | Model is shotdown
+2026-09-08 12:12:11,650 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:12:14,788 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:12:14,788 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:12:16,544 |INFO | app | Request Recived |request_id=50b5f6e2-aee9-488d-9e38-9d62a2d8e10b |method=GET |path=/api/v1/model-info 
+2026-09-08 12:12:16,564 |ERROR | app | error at 
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 683, in __getattr__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'mdel'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 87, in model_info
+    model=request.app.state.mdel
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 686, in __getattr__
+    raise AttributeError(message.format(self.__class__.__name__, key))
+AttributeError: 'State' object has no attribute 'mdel'
+2026-09-08 12:12:37,960 |INFO | app | Model is shotdown
+2026-09-08 12:12:43,241 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:12:46,652 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:12:46,652 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:12:46,767 |INFO | app | Model is shotdown
+2026-09-08 12:12:50,822 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:12:54,204 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:12:54,206 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:13:10,184 |INFO | app | Request Recived |request_id=d39ebcc8-c0c0-4657-8a22-81b3dbebb6b7 |method=GET |path=/api/v1/model-info 
+2026-09-08 12:13:10,231 |ERROR | app | error at 
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 683, in __getattr__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'mdel'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 88, in model_info
+    model=request.app.state.mdel
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 686, in __getattr__
+    raise AttributeError(message.format(self.__class__.__name__, key))
+AttributeError: 'State' object has no attribute 'mdel'
+2026-09-08 12:13:10,240 |INFO | app | Response Sent |request_id=d39ebcc8-c0c0-4657-8a22-81b3dbebb6b7 |request_method=GET |path=/api/v1/model-info |response_time=0.055624800035730004 
+2026-09-08 12:13:29,882 |INFO | app | Model is shotdown
+2026-09-08 12:13:35,187 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:13:40,801 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:13:40,805 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:13:40,915 |INFO | app | Model is shotdown
+2026-09-08 12:13:46,617 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:13:52,000 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:13:52,002 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:14:06,335 |INFO | app | Request Recived |request_id=d5208ad9-5d38-47c7-91b5-2122466f0d2e |method=GET |path=/api/v1/model-info 
+2026-09-08 12:14:06,368 |INFO | app | Response Sent |request_id=d5208ad9-5d38-47c7-91b5-2122466f0d2e |request_method=GET |path=/api/v1/model-info |response_time=0.03361640009097755 
+2026-09-08 12:14:09,145 |INFO | app | Model is shotdown
+2026-09-08 12:14:16,275 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:14:16,276 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 12:14:16,278 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:14:19,303 |INFO | app | Request Recived |request_id=547d760d-6366-4a1a-b3c6-0bb1a1bc97e9 |method=GET |path=/api/v1/model-info 
+2026-09-08 12:14:19,315 |ERROR | app | error at 
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 683, in __getattr__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'model_date'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 89, in model_info
+    trained_date=str(request.app.state.model_date.date())
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 686, in __getattr__
+    raise AttributeError(message.format(self.__class__.__name__, key))
+AttributeError: 'State' object has no attribute 'model_date'
+2026-09-08 12:14:19,321 |INFO | app | Response Sent |request_id=547d760d-6366-4a1a-b3c6-0bb1a1bc97e9 |request_method=GET |path=/api/v1/model-info |response_time=0.018067700089886785 
+2026-09-08 12:16:16,010 |INFO | app | Model is shotdown
+2026-09-08 12:16:27,467 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:16:32,721 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:16:32,723 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:16:32,834 |INFO | app | Model is shotdown
+2026-09-08 12:16:37,299 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:16:41,200 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:16:41,201 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:16:49,141 |INFO | app | Request Recived |request_id=34f39349-457b-4567-b414-7e992a6ecfa3 |method=GET |path=/api/v1/model-info 
+2026-09-08 12:16:49,167 |INFO | app | Response Sent |request_id=34f39349-457b-4567-b414-7e992a6ecfa3 |request_method=GET |path=/api/v1/model-info |response_time=0.025909099960699677 
+2026-09-08 12:17:00,694 |INFO | app | Model is shotdown
+2026-09-08 12:17:03,879 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:17:06,924 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:17:06,925 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:23:00,877 |INFO | app | Model is shotdown
+2026-09-08 12:23:10,411 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:23:18,634 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:23:18,654 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:23:18,791 |INFO | app | Model is shotdown
+2026-09-08 12:23:26,416 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:23:31,923 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:23:31,924 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:30:25,262 |INFO | app | Request Recived |request_id=d474e5a7-66f9-49e0-b071-f928a5045590 |method=GET |path=/api/v1/model-info 
+2026-09-08 12:30:25,291 |ERROR | app | error at 
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 683, in __getattr__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'odel'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 88, in model_info
+    model=request.app.state.odel
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 686, in __getattr__
+    raise AttributeError(message.format(self.__class__.__name__, key))
+AttributeError: 'State' object has no attribute 'odel'
+2026-09-08 12:30:25,296 |INFO | app | Response Sent |request_id=d474e5a7-66f9-49e0-b071-f928a5045590 |request_method=GET |path=/api/v1/model-info |response_time=0.03454830008558929 
+2026-09-08 12:30:45,874 |INFO | app | Model is shotdown
+2026-09-08 12:30:54,642 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:31:00,879 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:31:00,880 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:31:00,897 |INFO | app | Request Recived |request_id=1363a384-e6b8-4d48-8e7c-d30585b32d20 |method=GET |path=/api/v1/model-info 
+2026-09-08 12:31:00,951 |INFO | app | Response Sent |request_id=1363a384-e6b8-4d48-8e7c-d30585b32d20 |request_method=GET |path=/api/v1/model-info |response_time=0.0536440999712795 
+2026-09-08 12:31:53,064 |INFO | app | Model is shotdown
+2026-09-08 12:31:59,870 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:31:59,871 |ERROR | app | Model.pkl is not loaded
+NoneType: None
+2026-09-08 12:31:59,872 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:34:28,436 |INFO | app | Request Recived |request_id=48e775ea-05ff-4a7f-802a-3802c2f9c448 |method=GET |path=/api/v1/model-info 
+2026-09-08 12:34:28,447 |ERROR | app | error at 
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 683, in __getattr__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'model_date'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 89, in model_info
+    trained_date=str(request.app.state.model_date.date())
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 686, in __getattr__
+    raise AttributeError(message.format(self.__class__.__name__, key))
+AttributeError: 'State' object has no attribute 'model_date'
+2026-09-08 12:34:28,456 |INFO | app | Response Sent |request_id=48e775ea-05ff-4a7f-802a-3802c2f9c448 |request_method=GET |path=/api/v1/model-info |response_time=0.019478300120681524 
+2026-09-08 12:34:42,529 |INFO | app | Request Recived |request_id=dc4ca982-485e-4824-b179-6093fbce2d7d |method=GET |path=/api/v1/model-info 
+2026-09-08 12:34:42,531 |ERROR | app | error at 
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 683, in __getattr__
+    return self._state[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'model_date'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\app\routes\v1.py", line 89, in model_info
+    trained_date=str(request.app.state.model_date.date())
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\intewrn\ML-Model-Deployment-as-a-Monitored-REST-API\fenv\Lib\site-packages\starlette\datastructures.py", line 686, in __getattr__
+    raise AttributeError(message.format(self.__class__.__name__, key))
+AttributeError: 'State' object has no attribute 'model_date'
+2026-09-08 12:34:42,533 |INFO | app | Response Sent |request_id=dc4ca982-485e-4824-b179-6093fbce2d7d |request_method=GET |path=/api/v1/model-info |response_time=0.00341400015167892 
+2026-09-08 12:34:45,857 |INFO | app | Model is shotdown
+2026-09-08 12:34:54,000 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:34:58,096 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:34:58,097 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:34:59,758 |INFO | app | Request Recived |request_id=627b258b-9eba-4ec1-9650-97bfa7fe411b |method=GET |path=/api/v1/model-info 
+2026-09-08 12:34:59,774 |INFO | app | Response Sent |request_id=627b258b-9eba-4ec1-9650-97bfa7fe411b |request_method=GET |path=/api/v1/model-info |response_time=0.01678800000809133 
+2026-09-08 12:35:22,437 |INFO | app | Model is shotdown
+2026-09-08 12:35:29,558 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:35:34,668 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:35:34,669 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:35:34,792 |INFO | app | Model is shotdown
+2026-09-08 12:35:42,008 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:35:46,497 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:35:46,502 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:35:52,104 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:35:58,506 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:35:58,510 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:38:39,705 |INFO | app | Request Recived |request_id=1007af70-0399-4c09-9f5b-5d1e722d0127 |method=GET |path=/api/v1/batch-prediction 
+2026-09-08 12:38:39,711 |INFO | app | Response Sent |request_id=1007af70-0399-4c09-9f5b-5d1e722d0127 |request_method=GET |path=/api/v1/batch-prediction |response_time=0.005911099957302213 
+2026-09-08 12:38:45,175 |INFO | app | Request Recived |request_id=396a02e2-ce71-45d4-8094-b755fb2f0d5b |method=POST |path=/api/v1/batch-prediction 
+2026-09-08 12:38:45,506 |INFO | app | Response Sent |request_id=396a02e2-ce71-45d4-8094-b755fb2f0d5b |request_method=POST |path=/api/v1/batch-prediction |response_time=0.32988540013320744 
+2026-09-08 12:39:14,382 |INFO | app | Request Recived |request_id=e117fd2b-3082-4257-b581-07bd2c721b2d |method=POST |path=/api/v1/batch-prediction 
+2026-09-08 12:39:14,396 |INFO | app | Response Sent |request_id=e117fd2b-3082-4257-b581-07bd2c721b2d |request_method=POST |path=/api/v1/batch-prediction |response_time=0.01470309984870255 
+2026-09-08 12:39:17,451 |INFO | app | Request Recived |request_id=abeac315-9380-4fa9-abb1-2671afe807ac |method=POST |path=/api/v1/batch-prediction 
+2026-09-08 12:39:17,474 |INFO | app | Response Sent |request_id=abeac315-9380-4fa9-abb1-2671afe807ac |request_method=POST |path=/api/v1/batch-prediction |response_time=0.023639600025489926 
+2026-09-08 12:39:29,994 |INFO | app | Model is shotdown
+2026-09-08 12:39:35,230 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:39:38,590 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:39:38,591 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:39:40,904 |INFO | app | Request Recived |request_id=5dd69a06-712d-4820-b11c-4b9a590a52ee |method=POST |path=/api/v1/batch-prediction 
+2026-09-08 12:39:40,924 |INFO | app | Response Sent |request_id=5dd69a06-712d-4820-b11c-4b9a590a52ee |request_method=POST |path=/api/v1/batch-prediction |response_time=0.019991900073364377 
+2026-09-08 12:39:49,942 |INFO | app | Model is shotdown
+2026-09-08 12:39:53,717 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:39:56,673 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:39:56,706 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:40:32,373 |INFO | app | Model is shotdown
+2026-09-08 12:41:02,948 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:41:08,814 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:41:08,815 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:41:08,921 |INFO | app | Model is shotdown
+2026-09-08 12:41:13,305 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:41:16,593 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:41:16,594 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:41:19,341 |INFO | app | Model is shotdown
+2026-09-08 12:41:25,027 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:41:31,010 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:41:31,011 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:41:31,123 |INFO | app | Model is shotdown
+2026-09-08 12:44:48,800 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:44:55,553 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:44:55,555 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 12:45:04,752 |INFO | app | Model is shotdown
+2026-09-08 12:45:08,381 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-08 12:45:11,070 |INFO | app | Model.pkl is loaded Successfully
+2026-09-08 12:45:11,071 |INFO | app | accuracy.pkl is loaded Successfully
+2026-09-08 13:01:10,940 |INFO | app | Model is shotdown

@@ -14,11 +14,6 @@ def convert_df(data):
     
     return input_data
 
-
-
-
-
-
         
 
 @router.get("/")
@@ -82,18 +77,29 @@ def check_health(request:Request,):
 model_data={}
 @router.get("/model-info")
 def model_info(request:Request):
-    model=getattr(request.app.state,"model")
-    model_type=str(model.steps[1][1])
+    request_id=str(request.state.request_id)
+
+    try:
+        model=request.app.state.model
+        trained_date=str(request.app.state.model_date.date())
+    except Exception as e:
+        logger.exception("error at ")
+        return JSONResponse(content={"request_id":request_id,
+                                     "details":str(e)},status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
-    trained_date=str(getattr(request.app.state,"model_date").date())
+    model_type=str(model.steps[1][1])
  
     return MoelInfo(model_type=model_type,trained_date=trained_date)
 
 @router.post("/batch-prediction")
 def batch_predict(data:PredictionBatchInput,request:Request):
     request_id=str(request.state.request_id)
-    accuracy=getattr(request.app.state,"accuracy")
-    model=getattr(request.app.state,"model")
+    try:
+        accuracy=request.app.state.accuracy
+        model=request.app.state.model
+    except Exception as e:
+        return JSONResponse(content={"request_id":request_id,
+                                     "details":str(e)},status_code=status.HTTP_500_INTERNAL_SERVER_ERROR)
     predict_result=[]
 
     input=data.inputs
