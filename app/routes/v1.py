@@ -1,9 +1,11 @@
-from fastapi import APIRouter,Request,status
+from fastapi import APIRouter,Request,status,Depends
 from fastapi.responses import JSONResponse
+
 from app.logging_config import setup
 from ..models.schemas import *
 from app.config import settings
 import pandas as pd
+from app.dependencies import verify_api_key
 
 logger=setup()
 
@@ -17,11 +19,12 @@ def convert_df(data):
         
 
 @router.get("/")
-def root():
+def root(api_key:str=Depends(verify_api_key)):
 
     return JSONResponse(content={"message":"ML API is live"},status_code=200)
+
 @router.post("/predict")
-def predict(data:PredictionInput,request:Request):
+def predict(data:PredictionInput,request:Request,api_key:str=Depends(verify_api_key)):
     request_id=request.state.request_id
     model=request.app.state.model
     accuracy=request.app.state.accuracy
@@ -61,8 +64,9 @@ def predict(data:PredictionInput,request:Request):
         accuracy=accuracy
     )
 
+
 @router.get("/health")
-def check_health(request:Request,):
+def check_health(request:Request,api_key:str=Depends(verify_api_key)):
     request_id=str(request.state.request_id)
     model=request.app.state.model
     accuracy_score=request.app.state.accuracy
@@ -76,7 +80,7 @@ def check_health(request:Request,):
 
 model_data={}
 @router.get("/model-info")
-def model_info(request:Request):
+def model_info(request:Request,api_key:str=Depends(verify_api_key)):
     request_id=str(request.state.request_id)
 
     try:
@@ -92,7 +96,7 @@ def model_info(request:Request):
     return MoelInfo(model_type=model_type,trained_date=trained_date)
 
 @router.post("/batch-prediction")
-def batch_predict(data:PredictionBatchInput,request:Request):
+def batch_predict(data:PredictionBatchInput,request:Request,api_key:str=Depends(verify_api_key)):
     request_id=str(request.state.request_id)
     try:
         accuracy=request.app.state.accuracy

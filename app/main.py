@@ -1,4 +1,6 @@
 from fastapi import FastAPI,Request
+from fastapi.middleware.cors import CORSMiddleware
+
 from app.routes import v1,v2
 from .logging_config import setup
 from app.config import settings
@@ -63,6 +65,7 @@ app=FastAPI(lifespan=lifespan)
 @app.middleware("http")
 async def rr_handler(request:Request,call_next):
     start_time=time.perf_counter()
+    
     request.state.request_id=uuid.uuid4()
     logger.info(
         "Request Recived |"
@@ -92,8 +95,18 @@ async def rr_handler(request:Request,call_next):
             )
         
     return response
+
 app.include_router(v1.router)
 app.include_router(v2.router)
+app.add_middleware(
+    CORSMiddleware,
+
+        allow_origins=[settings.FRONTEND_URL],
+        allow_headers=["*"],
+        allow_credentials=True,
+        allow_methods=["*"]
+        
+)
 
 
 

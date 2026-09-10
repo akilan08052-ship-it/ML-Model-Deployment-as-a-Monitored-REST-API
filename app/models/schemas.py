@@ -1,4 +1,5 @@
 from pydantic import BaseModel,Field
+from pydantic.config import ConfigDict
 from fastapi import status
 from typing import List
 from enum import Enum
@@ -11,6 +12,7 @@ class IrisSpecies(Enum):
     IRISVIRGINICA="iris-virginica"
 
 class PredictionInput(BaseModel):
+    model_config=ConfigDict(extra="forbid")
     sepallength:float=Field(ge=0 ,alias="sepallength")
     sepalwidth:float=Field(ge=0,alias="sepalwidth")
     petallength:float=Field(ge=0,alias="petallength")

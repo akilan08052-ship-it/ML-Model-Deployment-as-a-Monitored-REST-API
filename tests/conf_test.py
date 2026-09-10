@@ -1,5 +1,6 @@
 from app.main import  app
 from fastapi.testclient import TestClient
+from app.config import settings
 
 
 
@@ -9,7 +10,7 @@ from fastapi.testclient import TestClient
 
 def test_root():
     with TestClient(app) as client:
-        response=client.get("api/v1/")
+        response=client.get("api/v1/",headers={'X-API-KEY':settings.API_KEY})
         assert response.status_code==200 
         assert response.json()=={"message":"ML API is live"}
 def test_predict():
@@ -19,13 +20,13 @@ def test_predict():
         "sepalwidth": 3.3,
         "petallength": 6.0,
         "petalwidth": 2.5
-    })
+    },headers={'X-API-KEY':settings.API_KEY})
         response_v2=client.post("api/v2/predict"  ,json={
             "sepallength": 6.3,
             "sepalwidth": 3.3,
             "petallength": 6.0,
             "petalwidth": 2.5
-            })
+        },headers={'X-API-KEY':settings.API_KEY})
                
         
         data_v1=response_v1.json()
@@ -54,7 +55,7 @@ def test_predict_batch():
               "petallength":6.0,
               "petalwidth":2.5
             }]
-        })
+        },headers={'X-API-KEY':settings.API_KEY})
         data=response.json()
         assert response.status_code==200
         assert data["predictions"][0]["species"] == "Iris-setosa"
@@ -68,7 +69,7 @@ def test_predict_batch():
 
 def test_health():
     with TestClient(app) as client:
-        response=client.get("api/v1/health")
+        response=client.get("api/v1/health",headers={'X-API-KEY':settings.API_KEY})
         response.status_code=200
         data=response.json()
         assert data["status"]=="Prediction service is Available" 
@@ -77,13 +78,24 @@ def test_health():
 def test_model_info():
      with TestClient(app) as client:
         
-        response=client.get("api/v1/model-info")
+        response=client.get("api/v1/model-info",headers={'X-API-KEY':settings.API_KEY})
         data=response.json()
         response.status_code=200
         assert 'model_type' in data
 
         assert 'trained_date' in data
 
+def test_negative_input():
+    with TestClient(app) as client:
+        response=client.post("api/v1/predict",json={
+            "sepallength":-6.3,
+            "sepalwidth":2.1,
+            "petallength":6.0,
+            "petalwidth":2.5
+        },headers={"X-API-KEY":settings.API_KEY})
+        data=response.json()
+        assert response.status_code==422
+        assert data["detail"][0]["msg"]=="Input should be greater than or equal to 0"
 
 
             

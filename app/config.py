@@ -13,6 +13,8 @@ class Settings(BaseSettings):
     API_V2_STR:str
     MODEL_PKL_PATH:str
     ACCURACY_PKL_PATH:str
+    API_KEY:str
+    FRONTEND_URL:str
 
 
 settings=Settings()
