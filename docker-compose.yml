@@ -1,0 +1,16 @@
+services:
+  api:
+    build: .
+    env_file:
+      - .env
+    ports:
+     - "8000:8000"
+    volumes:
+     - model_data:/ml/saved_model/
+volumes:
+  model_data:
+
+    
+    
+    
+     

@@ -26,7 +26,7 @@ y_pred=pipline.predict(X_test)
 accuracy=accuracy_score(y_pred,y_test)
 
 
-joblib.dump(pipline,"ml/saved_model/iris_pipeline.pkl")
+joblib.dump(pipline,"ml/saved_model/iris_model_pipeline.pkl")
 joblib.dump(accuracy,"ml/saved_model/accuracy.pkl")
 
 

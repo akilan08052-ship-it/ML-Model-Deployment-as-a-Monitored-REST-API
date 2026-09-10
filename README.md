@@ -50,38 +50,20 @@ ML-Model-Deployment-as-a-Mointered-REST Api
 
 ---
 
-## Used this project 
+## How to use this project
 
 ```bash
 git clone "https://github.com/akilan08052-ship-it/ML-Model-Deployment-as-a-Monitored-REST-API.git"
 
 ```
-### Setup Enviroment
+## Run
 ```bash
-pip install -r requirement.txt
-
-```
-### Run the project
-
-```bash
-uvicron app.main:app --reload
-
-```
-## Endpoints
-
-```text
-http://127.0.0.1:8000/
-http://127.0.0.1:8000/docs
-http://127.0.0.1:8000/predict
-http://127.0.0.1:8000/health
+docker compose up --build
 
 ```
 
 
-## Response
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/2613454e-f5ad-465a-9c56-d1519a5038dd" />
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/4abefacc-fcc6-4e03-867f-1695057cb170" />
-<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/9114914a-0703-4ae0-bce3-1b3019d22e67" />
+
 
 
 
