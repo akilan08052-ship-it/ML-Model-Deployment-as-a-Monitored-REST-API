@@ -1,4 +1,3 @@
-.fenv
 __pycache__/
 .app/logs/*.log
 .env
