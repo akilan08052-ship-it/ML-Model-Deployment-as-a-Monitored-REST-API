@@ -1,6 +1,5 @@
 from fastapi import FastAPI,Request
 from fastapi.middleware.cors import CORSMiddleware
-
 from app.routes import v1,v2
 from .logging_config import setup
 from app.config import settings
