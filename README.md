@@ -46,21 +46,36 @@ ML-Model-Deployment-as-a-Mointered-REST Api
 |_README.md
 |_requirements.txt
 
-```text
+```
 
 ---
 
-## How to use this project
+## Use this project 
 
+### Git Clone
 ```bash
 git clone "https://github.com/akilan08052-ship-it/ML-Model-Deployment-as-a-Monitored-REST-API.git"
-
 ```
-## Run
+
+### Create Environment 
+
 ```bash
-docker compose up --build
-
+python -m venv env
 ```
+
+### Activate Environment
+
+```bash
+env\Scripts\Activate
+```
+
+### Install Requirements
+```bash 
+pip install -r requirements.txt
+```
+
+
+
 
 
 
