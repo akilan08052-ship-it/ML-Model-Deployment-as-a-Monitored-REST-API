@@ -73,6 +73,10 @@ env\Scripts\Activate
 ```bash 
 pip install -r requirements.txt
 ```
+### Application startup
+```bash
+uvicorn app.main:app --reload
+```
 
 
 
