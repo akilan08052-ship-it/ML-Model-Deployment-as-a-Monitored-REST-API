@@ -63,7 +63,7 @@ async def send_request(client, semaphore):
 
 async def main():
 
-    start_time = time.time()
+    start_time = time.perf_counter()
 
     semaphore = asyncio.Semaphore(CONCURRENT_REQUESTS)
 
@@ -77,7 +77,7 @@ async def main():
             )
 
         results = await asyncio.gather(*tasks)
-
+    total_duration=time.perf_counter() -start_time
     end_time = time.time()
 
     success = 0
@@ -93,7 +93,10 @@ async def main():
     print("Total requests:", REQUEST_COUNT)
     print("Successful requests:", success)
     print("Failed requests:", failed)
-    print("Time taken:", round(end_time - start_time, 2), "seconds")
+    print("Time taken:", total_duration, "seconds")
+    print(
+        f"Requests per second : "
+        f"{REQUEST_COUNT / total_duration:.2f}","requests")
 
 
 if __name__ == "__main__":

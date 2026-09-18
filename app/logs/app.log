@@ -9769,3 +9769,5 @@
 2026-09-18 11:05:12,229 |INFO | app | Response Sent |request_id=fbacbd75-0df4-414d-a729-4be36fae7247 |request_method=POST |path=/api/v1/batch-prediction |response_time=0.06958230026066303 
 2026-09-18 11:09:45,358 |INFO | app | Model is shotdown
 2026-09-18 11:09:55,884 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
+2026-09-18 11:10:03,367 |INFO | app | Model.pkl is loaded Successfully
+2026-09-18 11:10:03,368 |INFO | app | accuracy.pkl is loaded Successfully

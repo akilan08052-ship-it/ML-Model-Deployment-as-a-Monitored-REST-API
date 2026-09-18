@@ -6,7 +6,6 @@ from ..models.schemas import *
 from app.config import settings
 import pandas as pd
 from app.dependencies import verify_api_key
-from app.metrics import prediction_counter
 logger=setup()
 
 router=APIRouter(prefix=settings.API_V1_STR)
@@ -118,8 +117,8 @@ def batch_predict(data:PredictionBatchInput,request:Request,api_key:str=Depends(
                             columns=[ "SepalLengthCm", "SepalWidthCm", "PetalLengthCm", "PetalWidthCm" ] )
         predictions=model.predict(df)
         for result in predictions:
-            prediction=PredictionResponseV1(request_id=request_id,species=str(result),accuracy=accuracy)
-            predict_result.append(prediction)
+            predict_result.append(PredictionResponseV1(request_id=request_id,species=str(result),accuracy=accuracy))
+            
    
     return PredictionBatchOutput(predictions=predict_result)
 
