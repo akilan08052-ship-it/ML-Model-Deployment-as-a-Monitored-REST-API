@@ -1,6 +1,6 @@
 services:
   api:
-    build: .
+    image: ml-api:v1
     env_file:
       - .env
     ports:
