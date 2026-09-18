@@ -1,6 +1,6 @@
 from fastapi import APIRouter,Request,status,Depends
 from fastapi.responses import JSONResponse
-
+from app.metrics import prediction_counter
 from app.logging_config import setup
 from ..models.schemas import *
 from app.config import settings

@@ -1,4 +1,5 @@
 .env
-fvn
+fevn
 __pycache__
 .git
+.example.env
