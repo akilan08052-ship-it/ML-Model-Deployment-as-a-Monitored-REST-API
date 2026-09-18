@@ -9767,3 +9767,5 @@
 2026-09-18 11:05:12,227 |INFO | app | Response Sent |request_id=17af43fc-79b7-4b03-90a7-fc3fcafe2898 |request_method=POST |path=/api/v1/batch-prediction |response_time=0.06810319982469082 
 2026-09-18 11:05:12,228 |INFO | app | Response Sent |request_id=a5e6f102-6c26-46b0-8460-2f917187893a |request_method=POST |path=/api/v1/batch-prediction |response_time=0.07006209995597601 
 2026-09-18 11:05:12,229 |INFO | app | Response Sent |request_id=fbacbd75-0df4-414d-a729-4be36fae7247 |request_method=POST |path=/api/v1/batch-prediction |response_time=0.06958230026066303 
+2026-09-18 11:09:45,358 |INFO | app | Model is shotdown
+2026-09-18 11:09:55,884 |INFO | app | Checking ML model file | path=ml/saved_model/iris_pipeline.pkl
