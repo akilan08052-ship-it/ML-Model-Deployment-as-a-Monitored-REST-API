@@ -130,7 +130,7 @@ python -m tests.batch
 Swagger UI provides the information about the endpoint thier allowed schemas.
 ### visit :
  - http://127.0.0.1:8000/docs
- ---
+ --
 
 ## Metrices 
 Here,we used the promethuse  monitering system to give help full insights of api endpoints like count,sum of the request and response of the each endpoints
