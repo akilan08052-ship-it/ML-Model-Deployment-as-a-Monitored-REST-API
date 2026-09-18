@@ -1,4 +1,5 @@
 from fastapi import FastAPI,Request
+from prometheus_fastapi_instrumentator import Instrumentator
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes import v1,v2
 from .logging_config import setup
@@ -15,8 +16,8 @@ logger=setup()
 
 
 
-
 async def lifespan(app:FastAPI):
+    
     FILE_LOC_MODEL=settings.MODEL_PKL_PATH
     FIEL_LOC_ACCURACY=settings.ACCURACY_PKL_PATH
     try:
@@ -59,6 +60,7 @@ async def lifespan(app:FastAPI):
     gc.collect()
 
 app=FastAPI(lifespan=lifespan)
+
 
 
 @app.middleware("http")
@@ -110,7 +112,9 @@ app.add_middleware(
 
 
 
-   
+
+Instrumentator().instrument(app).expose(app)
+
 
 
 

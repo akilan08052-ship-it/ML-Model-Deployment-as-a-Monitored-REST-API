@@ -6,7 +6,7 @@ from ..models.schemas import *
 from app.config import settings
 import pandas as pd
 from app.dependencies import verify_api_key
-
+from app.metrics import prediction_counter
 logger=setup()
 
 router=APIRouter(prefix=settings.API_V1_STR)
@@ -51,6 +51,11 @@ def predict(data:PredictionInput,request:Request,api_key:str=Depends(verify_api_
         )
     try:
         result=model.predict(input_data)
+        predicted_class = result[0]
+
+        prediction_counter.labels(
+        predicted_class=str(predicted_class)
+).inc()
     except Exception as e:
         logger.exception("Model failied | request_id=%s" ,request_id)
         return JSONResponse(content={"request_id":str(request_id),

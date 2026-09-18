@@ -77,12 +77,30 @@ pip install -r requirements.txt
 ```bash
 uvicorn app.main:app --reload
 ```
+---
 
+## Test
+### Integration_test
+```bash
+python -m  pytest ./tests/test_integration.py -v
+```
+### Conftest
+```bash
+python -m  pytest ./tests/conf_test.py -v
+```
+### Secrity Test
+```bash
+python -m  pytest ./tests/security_test.py -v
+```
+### Predict Load Test
+```bash
+python -m tests.predict_load
+```
 
-
-
-
-
+### Batch Predict Load Test
+```bash
+python -m tests.batch
+```
 
 
 
